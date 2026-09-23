@@ -474,7 +474,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="error_could_not_open_file">错误：无法打开文件。</string>
     <string name="document_error_clip">出现错误：文本已复制到剪贴板。</string>
     <string name="wont_save_min_length">字符数不到 %d 的文件不会自动保存防止数据丢失。</string>
-    <string name="advanced_filtering_help"><![CDATA[<small><a href="https://github.com/eastseao/markdown-helper/discussions">高级过滤语法</a></small>]]></string>
+    <string name="advanced_filtering_help"><![CDATA[<small><a href="https://github.com/eastseao/Markdown-Helper/discussions">高级过滤语法</a></small>]]></string>
     <string name="filter">过滤器</string>
     <string name="text_case">文本大小写</string>
     <string name="toggle_case">切换大小写 (Case→CASE→case)</string>

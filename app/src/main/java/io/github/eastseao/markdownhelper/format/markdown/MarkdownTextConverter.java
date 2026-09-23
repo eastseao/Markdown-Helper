@@ -292,7 +292,7 @@ public class MarkdownTextConverter extends TextConverterBase {
         // Jekyll: Replace {{ site.baseurl }} with ..--> usually used in Jekyll blog _posts folder which is one folder below repository root, for reference to e.g. pictures in assets folder
         markup = markup.replace("{{ site.baseurl }}", "..").replace(TOKEN_SITE_DATE_JEKYLL, TOKEN_POST_TODAY_DATE);
 
-        // Notable: They use a home brewed syntax for referencing attachments: @attachment/f.png = ../attachements/f.jpg -- https://github.com/eastseao/markdown-helper/issues
+        // Notable: They use a home brewed syntax for referencing attachments: @attachment/f.png = ../attachements/f.jpg -- https://github.com/eastseao/Markdown-Helper/issues
         markup = markup.replace("](@attachment/", "](../attachements/");
 
         if (as.isMarkdownNewlineNewparagraphEnabled()) {

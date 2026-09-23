@@ -5,7 +5,7 @@ Creation-Date: 2020-10-28T20:54:42+01:00
 ====== Root Page ======
 Created Mittwoch 28 Oktober 2020
 
-This zim wiki sample notebook was created for the [[https://github.com/eastseao/markdown-helper]] project by [[https://github.com/gsantner|Gregor Santner]] and is licensed under [[https://creativecommons.org/publicdomain/zero/1.0/legalcode|Creative Commons Zero 1.0]] (public domain). File revision 1.
+This zim wiki sample notebook was created for the [[https://github.com/eastseao/Markdown-Helper]] project by [[https://github.com/gsantner|Gregor Santner]] and is licensed under [[https://creativecommons.org/publicdomain/zero/1.0/legalcode|Creative Commons Zero 1.0]] (public domain). File revision 1.
 
 ===== Zim Notebook Structure =====
 
@@ -79,7 +79,7 @@ We also have _{subscript} and ^{superscript}.
 
 ===== Links =====
 
-This is an embedded web link: [[https://github.com/eastseao/markdown-helper on Github]]
+This is an embedded web link: [[https://github.com/eastseao/Markdown-Helper on Github]]
 
 To link relatively **down** the hierarchy to a sub page from the current page, use a "+" in front of the path to the page:
 [[+Sub Page 1|Sub-page link to Sub Page 1]]
@@ -94,7 +94,7 @@ If you don't need a different text displayed for the underlying link and just wa
 [[+Sub Page 1]]
 
 Directly inserted URLs will be displayed as links automatically and don't need any brackets:
-https://github.com/eastseao/markdown-helper
+https://github.com/eastseao/Markdown-Helper
 
 ===== Images =====
 

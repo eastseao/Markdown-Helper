@@ -1,6 +1,6 @@
 ### Recent changes
-- Reports, requests and questions: <https://github.com/eastseao/markdown-helper/issues>
-- Downloads and release notes: <https://github.com/eastseao/markdown-helper/releases>
+- Reports, requests and questions: <https://github.com/eastseao/Markdown-Helper/issues>
+- Downloads and release notes: <https://github.com/eastseao/Markdown-Helper/releases>
 
 ### v1.0.0
 First release of Markdown Helper. Based on the 2.16.1 codebase of the upstream

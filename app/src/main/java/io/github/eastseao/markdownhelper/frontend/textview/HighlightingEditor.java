@@ -115,7 +115,7 @@ public class HighlightingEditor extends AppCompatEditText {
         observer.addOnScrollChangedListener(this::updateHighlighting);
         observer.addOnGlobalLayoutListener(this::updateHighlighting);
 
-        // Fix for Android 12 perf issues - https://github.com/eastseao/markdown-helper/discussions
+        // Fix for Android 12 perf issues - https://github.com/eastseao/Markdown-Helper/discussions
         setEmojiCompatEnabled(false);
 
         // Custom options

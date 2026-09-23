@@ -450,7 +450,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="error_could_not_open_file">Eroare: Nu s-a putut deschide fișierul.</string>
     <string name="document_error_clip">Eroare întâlnită: textul a fost copiat în clipboard.</string>
     <string name="wont_save_min_length">Fișierele cu mai puțin de %d caractere nu sunt salvate automat pentru a preveni pierderea de date.</string>
-    <string name="advanced_filtering_help"><![CDATA[<small><a href="https://github.com/eastseao/markdown-helper/discussions">Sintaxă avansată de filtrare</a></small>]]></string>
+    <string name="advanced_filtering_help"><![CDATA[<small><a href="https://github.com/eastseao/Markdown-Helper/discussions">Sintaxă avansată de filtrare</a></small>]]></string>
     <string name="filter">Filtru</string>
     <string name="text_case">Formatare text</string>
     <string name="use_tab_to_indent">Indentează liniile cu tasta TAB</string>

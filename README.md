@@ -6,6 +6,8 @@ Lightweight and offline-first, with Markdown, todo.txt, Zim/WikiText and more.
 
 <br clear="left"/>
 
+**English** | [简体中文](https://github.com/eastseao/Markdown-Helper/blob/main/README.zh-CN.md)
+
 **Download:** [`MarkdownHelper-v1.0.0.apk`](MarkdownHelper-v1.0.0.apk) (this repository root)
 
 ---
@@ -130,22 +132,5 @@ the APK are credited in More → Third party licenses inside the app.
 
 ---
 
-## 中文说明
-
-**Markdown Helper** 是一款 Android 纯文本笔记 / 待办编辑器，支持 Markdown、todo.txt、
-Zim/WikiText、AsciiDoc、Org-Mode、CSV、JSON/YAML 等格式，全程离线，无广告、无追踪。
-
-安装包就在本仓库根目录：`MarkdownHelper-v1.0.0.apk`。
-
-本版在原上游 2.16.1 代码基础上做了四件事：
-
-1. **新增「导出图片分辨率」设置**（1 倍 / 2 倍 / 3 倍，默认 2 倍）。导出为图片时会
-   同步放大 WebView 视口并等待重排，因此 2 倍导出与 1 倍导出的**换行位置完全一致**，
-   只是像素翻倍；导出宽度上限提到 8192 px，JPEG 质量从 70 提到 95。
-2. **去掉启动弹窗**（版本更新/更新日志对话框），同时关闭了「给应用评分」的弹窗。
-3. **精简「更多」页面**：协议、帮助/FAQ、评分入口、设置子页面全部移除，原先在子页面
-   里的设置项改为直接平铺在「更多」页。
-4. **改名换包**：应用名、包名、类名全部改为 Markdown Helper 系列，并清掉上游专属的
-   F-Droid / CI / Crowdin 配置。
-
-详细的改动清单见 [`NOTICE.md`](NOTICE.md)，版本记录见 [`CHANGELOG.md`](CHANGELOG.md)。
+**中文用户请见 [README.zh-CN.md](https://github.com/eastseao/Markdown-Helper/blob/main/README.zh-CN.md)**
+（完整中文版说明）。

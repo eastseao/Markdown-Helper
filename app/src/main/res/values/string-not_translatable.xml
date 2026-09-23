@@ -12,13 +12,13 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="app_name_real" translatable="false">Markdown Helper</string>
     <string name="app_name" translatable="false">@string/app_name_real</string>
     <string name="app_license_name" translatable="false">Apache 2.0</string>
-    <string name="app_community_url" translatable="false">https://github.com/eastseao/markdown-helper/discussions</string>
-    <string name="app_bugreport_url" translatable="false">https://github.com/eastseao/markdown-helper/discussions</string>
-    <string name="app_translate_url" translatable="false">https://github.com/eastseao/markdown-helper/discussions</string>
+    <string name="app_community_url" translatable="false">https://github.com/eastseao/Markdown-Helper/discussions</string>
+    <string name="app_bugreport_url" translatable="false">https://github.com/eastseao/Markdown-Helper/discussions</string>
+    <string name="app_translate_url" translatable="false">https://github.com/eastseao/Markdown-Helper/discussions</string>
 
-    <string name="app_web_url" translatable="false">https://github.com/eastseao/markdown-helper</string>
-    <string name="sync_client_support_issue_url" translatable="false">https://github.com/eastseao/markdown-helper/discussions</string>
-    <string name="app_source_code_url" translatable="false">https://github.com/eastseao/markdown-helper</string>
+    <string name="app_web_url" translatable="false">https://github.com/eastseao/Markdown-Helper</string>
+    <string name="sync_client_support_issue_url" translatable="false">https://github.com/eastseao/Markdown-Helper/discussions</string>
+    <string name="app_source_code_url" translatable="false">https://github.com/eastseao/Markdown-Helper</string>
     <string name="huuid" translatable="false">hUUID</string>
     <string name="embed_binary" translatable="false">Embed binary</string>
     <string name="actionbutton" translatable="false">ActionButton</string>
@@ -66,7 +66,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
         ### Copyright © 2017-2025
         **Gregor Santner**
         \n**Official project sources:**
-        [Project page](https://github.com/eastseao/markdown-helper) | [Source code](https://github.com/eastseao/markdown-helper) | [F-Droid](https://github.com/eastseao/markdown-helper)
+        [Project page](https://github.com/eastseao/Markdown-Helper) | [Source code](https://github.com/eastseao/Markdown-Helper) | [F-Droid](https://github.com/eastseao/Markdown-Helper)
     ]]></string>
 
     <string name="inject_to_head" translatable="false">Inject -> head</string>

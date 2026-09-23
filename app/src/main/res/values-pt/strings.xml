@@ -474,7 +474,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="error_could_not_open_file">Erro: Não foi possível abrir o ficheiro.</string>
     <string name="document_error_clip">Erro encontrado: Texto copiado para área de transferência.</string>
     <string name="wont_save_min_length">Ficheiros com menos de %d caracteres não são salvos automaticamente para prevenir perda de dados.</string>
-    <string name="advanced_filtering_help"><![CDATA[<small><a href="https://github.com/eastseao/markdown-helper/discussions">Sintaxe de filtragem avançada</a></small>]]></string>
+    <string name="advanced_filtering_help"><![CDATA[<small><a href="https://github.com/eastseao/Markdown-Helper/discussions">Sintaxe de filtragem avançada</a></small>]]></string>
     <string name="filter">Filtro</string>
     <string name="text_case">Letra do texto</string>
     <string name="toggle_case">Alterar maiúsculas e minúsculas (Case→CASE→case)</string>

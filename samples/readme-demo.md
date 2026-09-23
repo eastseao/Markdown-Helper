@@ -20,7 +20,7 @@
 - [x] No. 1 Markdown app on Google Play
 - [x] Also available on Aptoide, F-Droid & GitHub
 
-Project page: <https://github.com/eastseao/markdown-helper>
+Project page: <https://github.com/eastseao/Markdown-Helper>
 
-![Markdown Helper Logo](https://github.com/eastseao/markdown-helper)
+![Markdown Helper Logo](https://github.com/eastseao/Markdown-Helper)
 

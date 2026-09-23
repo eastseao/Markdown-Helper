@@ -1,3 +1,3 @@
 Markdown Helper
 Maintained by eastseao
-https://github.com/eastseao/markdown-helper
+https://github.com/eastseao/Markdown-Helper

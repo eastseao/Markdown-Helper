@@ -448,7 +448,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="error_could_not_open_file">錯誤：無法開啟檔案。</string>
     <string name="document_error_clip">遇到錯誤：文字已複製至剪貼簿。</string>
     <string name="wont_save_min_length">為了防止資料遺失，不會自動儲存少於 %d 個字元的檔案。</string>
-    <string name="advanced_filtering_help"><![CDATA[<small><a href="https://github.com/eastseao/markdown-helper/discussions">進階過濾語法</a></small>]]></string>
+    <string name="advanced_filtering_help"><![CDATA[<small><a href="https://github.com/eastseao/Markdown-Helper/discussions">進階過濾語法</a></small>]]></string>
     <string name="filter">過濾器</string>
     <string name="text_case">文本大小寫</string>
 </resources>

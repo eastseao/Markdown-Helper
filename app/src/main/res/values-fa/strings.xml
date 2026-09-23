@@ -428,7 +428,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="error_could_not_open_file">ارور: فایل باز نشد.</string>
     <string name="document_error_clip">ارور: متن به کلیپبرد افزوده شد.</string>
     <string name="wont_save_min_length">جهت جلوگیری از ازدست‌رفتن داده، فایل‌هایی با تعداد کاراکتر کمتر از %d به‌صورت خودکار ذخیره نخواهند شد.</string>
-    <string name="advanced_filtering_help"><![CDATA[<small><a href="https://github.com/eastseao/markdown-helper/discussions">
+    <string name="advanced_filtering_help"><![CDATA[<small><a href="https://github.com/eastseao/Markdown-Helper/discussions">
 سینتکس صافی پیشرفته </a></small>]]></string>
     <string name="filter">صافی</string>
 </resources>

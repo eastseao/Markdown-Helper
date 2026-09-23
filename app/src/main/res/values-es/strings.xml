@@ -450,7 +450,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="error_could_not_open_file">Error: No se pudo abrir el archivo.</string>
     <string name="document_error_clip">Error encontrado: Texto copiado al portapapeles.</string>
     <string name="wont_save_min_length">Los archivos con menos de %d caracteres no se guardan automáticamente para evitar la pérdida de datos.</string>
-    <string name="advanced_filtering_help"><![CDATA[<small><a href="https://github.com/eastseao/markdown-helper/discussions">Sintaxis de filtrado avanzado</a></small>]]></string>
+    <string name="advanced_filtering_help"><![CDATA[<small><a href="https://github.com/eastseao/Markdown-Helper/discussions">Sintaxis de filtrado avanzado</a></small>]]></string>
     <string name="filter">Filtro</string>
     <string name="text_case">Mayúscula/minúscula</string>
     <string name="use_tab_to_indent">Sangrar líneas con la tecla TAB</string>

@@ -227,7 +227,7 @@ Use one of these qualifiers to select the icon and the block color: abstract, su
 
 ------------------
 
-This Markdown reference file was created for the [Markdown Helper](https://github.com/eastseao/markdown-helper) project by [Gregor Santner](gsantner AT mailbox DOT org) and is licensed [Creative Commons Zero 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) (public domain). File revision 4.
+This Markdown reference file was created for the [Markdown Helper](https://github.com/eastseao/Markdown-Helper) project by [Gregor Santner](gsantner AT mailbox DOT org) and is licensed [Creative Commons Zero 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) (public domain). File revision 4.
 
 ------------------
 
