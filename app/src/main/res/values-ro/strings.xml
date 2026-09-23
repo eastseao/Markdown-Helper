@@ -195,12 +195,12 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Cratimă (-)</string>
     <string name="unordered_list_char_asterisk">Asterisc (*)</string>
     <string name="unordered_list_char_plus">Plus (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownHelper poate edita doar documentele locale disponibile offline şi nu acceptă manageri de fişiere care nu oferă calea completă a fişierelor.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper poate edita doar documentele locale disponibile offline şi nu acceptă manageri de fişiere care nu oferă calea completă a fişierelor.</string>
     <string name="file_does_not_exist_and_cant_be_created">Fișierul sau directorul nu există și nu poate fi creat</string>
     <string name="permissions">Permisiuni</string>
     <string name="permission_paths_revert">Reveniți la căile implicite?</string>
     <string name="permission_not_granted">Permisiunea nu a fost acordată</string>
-    <string name="sync_to_local_folder_notice">Notă: Aplicațiile de sincronizare pot plasa fișiere în dosare personalizate. Deschideți-le modificând dosarul de documente al MarkdownHelper în mod corespunzător sau într-un alt manager de fișiere.</string>
+    <string name="sync_to_local_folder_notice">Notă: Aplicațiile de sincronizare pot plasa fișiere în dosare personalizate. Deschideți-le modificând dosarul de documente al Markdown Helper în mod corespunzător sau într-un alt manager de fișiere.</string>
     <string name="vertical_alignment">Aliniere verticală</string>
     <string name="horizontal_alignment">Aliniere orizontală</string>
     <string name="default_">Implicit</string>
@@ -294,8 +294,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">AppData (privat)</string>
     <string name="appdata_sdcard">AppData (SD Card)</string>
     <string name="internal_storage">Stocare internă</string>
-    <string name="open_the_document_from_main_view">Puteți deschide documentul din vizualizarea principală de jos, din browserul de fișiere sau din lansator. Există, de asemenea, o opțiune de atașare a textului partajat în MarkdownHelper.</string>
-    <string name="notebook_is_the_home_of_your_files">Caietul este dosarul pe care MarkdownHelper îl încarcă în browserul de fișiere la pornirea aplicației. Este dosarul principal al fișierelor tale.</string>
+    <string name="open_the_document_from_main_view">Puteți deschide documentul din vizualizarea principală de jos, din browserul de fișiere sau din lansator. Există, de asemenea, o opțiune de atașare a textului partajat în Markdown Helper.</string>
+    <string name="notebook_is_the_home_of_your_files">Caietul este dosarul pe care Markdown Helper îl încarcă în browserul de fișiere la pornirea aplicației. Este dosarul principal al fișierelor tale.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">QuickNote este cea mai rapidă opțiune pentru a scrie notițe. Este un fișier în format Markdown cu locația implicită &gt;Notebook/QuickNote.md&lt;, puteți seta o cale personalizată în setări.</string>
     <string name="todo_is_the_easiest_way_">Gestionați sarcinile cu ToDo. Este un fișier în format todo.txt cu locația implicită &gt;Notebook/todo. xt&lt;, puteţi seta o cale personalizată în setări.</string>
     <string name="navigationbar_color">Culoare bară de navigare</string>
@@ -384,7 +384,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">Criptează conținutul fișierului</string>
     <string name="utf8_with_bom">UTF-8 cu BOM</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">Conținutul fișierului nu a putut fi criptat. Fișierul nu a fost salvat.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Nu s-a putut decripta conținutul fișierului. Ați folosit o parolă greșită? Este fișierul cu adevărat criptat cu criptarea AES a MarkdownHelper?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Nu s-a putut decripta conținutul fișierului. Ați folosit o parolă greșită? Este fișierul cu adevărat criptat cu criptarea AES a Markdown Helper?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">Parola este deja setată. Setarea unei noi parole va suprascrie parola existentă și s-ar putea să nu mai puteți accesa fișierele dacă uitați parola.</string>
     <string name="code_block">Bloc de cod</string>
     <string name="add_completion_date">Adaugă data finalizării</string>
@@ -440,7 +440,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="match_all">Potrivește tot</string>
     <string name="dynamic_notebook_root_links">Căutare dinamică pentru rădăcina caietului</string>
     <string name="search_dynamically_for_notebook_root">Pentru a urmări linkurile wiki, căutați în mod dinamic fișierul notebook.zim pentru a identifica directorul rădăcină pentru caietul curent. Bifați această opțiune dacă utilizați mai multe caiete zim sau dacă directorul caietului setat în aplicație nu corespunde caietului zim.</string>
-    <string name="share_into_format_prefix_for_text_shared">Format/Prefix pentru textul partajat în MarkdownHelper. Urmează regulile SimpleDateFormat ale Android.\n\nFolosește variabila {{text}} pentru a poziționa textul partajat. Dacă nu este specificat, textul partajat este adăugat la sfârșit și formatul este folosit ca prefix.</string>
+    <string name="share_into_format_prefix_for_text_shared">Format/Prefix pentru textul partajat în Markdown Helper. Urmează regulile SimpleDateFormat ale Android.\n\nFolosește variabila {{text}} pentru a poziționa textul partajat. Dacă nu este specificat, textul partajat este adăugat la sfârșit și formatul este folosit ca prefix.</string>
     <string name="share_into_format">Partajare în - Format</string>
     <string name="attachment_folder_name">Numele dosarului de atașare</string>
     <string name="attachment_folder_name_desc">Subdosar sub dosarul curent unde vor fi salvate atașamentele. Dacă este lăsat necompletat, atașamentele vor fi salvate în dosarul curent.</string>

@@ -1,5 +1,5 @@
 <b><big><big><font color="#FF9800">Markdown</font></big></big></b>  
-CommonMark is the specification that the markdown parser used in MarkdownHelper implements.  
+CommonMark is the specification that the markdown parser used in Markdown Helper implements.  
 
 * **[CommonMark tutorial](http://commonmark.org/help/tutorial/)**<br/>~° Learn Markdown in 10 minutes
 * **[CommonMark help](http://commonmark.org/help/)**<br/>~°  Quick reference card and interactive tutorial for learning Markdown. 

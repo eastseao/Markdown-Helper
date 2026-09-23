@@ -24,7 +24,7 @@ background: slategrey;
 ## Slide title
 
 
-1. All Markdown features of MarkdownHelper are **supported** for Slides too ~~strikeout~~ _italic_ `code`
+1. All Markdown features of Markdown Helper are **supported** for Slides too ~~strikeout~~ _italic_ `code`
 2. Start new slides with 3 more hyphens (---) separated by empty lines
 3. End last slide with hyphens too
 4. Slide backgrounds can be configured using CSS, for all and individual slides

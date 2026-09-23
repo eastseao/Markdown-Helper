@@ -184,7 +184,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Dash (-)</string>
     <string name="unordered_list_char_asterisk">Asterisk (*)</string>
     <string name="unordered_list_char_plus">Plus (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownHelper kan kun redigere lokale, offline tilgængelige dokumenter og understøtter ikke filadministratorer, der ikke giver den fulde filsti.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper kan kun redigere lokale, offline tilgængelige dokumenter og understøtter ikke filadministratorer, der ikke giver den fulde filsti.</string>
     <string name="sync_to_local_folder_notice">Notits: Synkroniserende programmer vil måske placere filer i brugerdefinerede mapper. Disse kan åbnes ved at ændre Makors dokumentmappe eller i et andet filhåndteringsprogram</string>
     <string name="vertical_alignment">Vertikal justering</string>
     <string name="horizontal_alignment">Horisontalt justering</string>
@@ -274,8 +274,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">AppData (privat)</string>
     <string name="appdata_sdcard">AppData (SD Card)</string>
     <string name="internal_storage">Intern lagerplads</string>
-    <string name="open_the_document_from_main_view">Du kan åbne dokumentet fra hovedvisning i bunden, filbrowseren eller launcher. Der er også mulighed for at tilføje tekst delt i MarkdownHelper.</string>
-    <string name="notebook_is_the_home_of_your_files">Notebook er den mappe, som MarkdownHelper indlæser i filbrowseren, når app\'en startes. Det er hjemmemappen for dine filer.</string>
+    <string name="open_the_document_from_main_view">Du kan åbne dokumentet fra hovedvisning i bunden, filbrowseren eller launcher. Der er også mulighed for at tilføje tekst delt i Markdown Helper.</string>
+    <string name="notebook_is_the_home_of_your_files">Notebook er den mappe, som Markdown Helper indlæser i filbrowseren, når app\'en startes. Det er hjemmemappen for dine filer.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">QuickNote er den hurtigste mulighed for at skrive ned noter. Det er en fil i Markdown format med standard placering &gt;Notebook / QuickNote. d&lt;, kan du indstille en brugerdefineret filsti i indstillingerne.</string>
     <string name="todo_is_the_easiest_way_">Administrer dine opgaver med ToDo. Det er en fil i todo.txt format med standard placering &gt;Notebook / todo. xt&lt;, du kan indstille en brugerdefineret filsti i indstillingerne.</string>
     <string name="navigationbar_color">Navigation bar farve</string>
@@ -360,7 +360,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">Kryptér filindhold</string>
     <string name="utf8_with_bom">UTF-8 med BOM</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">Kunne ikke kryptere filindholdet. Filen blev ikke gemt.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Kunne ikke dekryptere fil indhold. Har du brugt en forkert adgangskode? Er filen virkelig krypteret med MarkdownHelpers AES kryptering?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Kunne ikke dekryptere fil indhold. Har du brugt en forkert adgangskode? Er filen virkelig krypteret med Markdown Helpers AES kryptering?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">Adgangskode allerede angivet. Indstilling af en ny adgangskode vil overskrive den eksisterende adgangskode, og du kan muligvis ikke længere tilgå filer, hvis du glemmer adgangskoden.</string>
     <string name="code_block">Kode blok</string>
     <string name="add_completion_date">Tilføj slutdato</string>

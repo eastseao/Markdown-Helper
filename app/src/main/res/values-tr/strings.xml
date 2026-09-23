@@ -197,12 +197,12 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Kısa çizgi (-)</string>
     <string name="unordered_list_char_asterisk">Yıldız işareti (*)</string>
     <string name="unordered_list_char_plus">Artı işareti (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownHelper sadece yerel, çevrimdışı kullanılabilir belgeleri düzenleyebilir ve tam dosya yolunu sağlamayan dosya yöneticilerini desteklemez.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper sadece yerel, çevrimdışı kullanılabilir belgeleri düzenleyebilir ve tam dosya yolunu sağlamayan dosya yöneticilerini desteklemez.</string>
     <string name="file_does_not_exist_and_cant_be_created">Dosya veya dizin mevcut değil ve oluşturulamıyor</string>
     <string name="permissions">İzinler</string>
     <string name="permission_paths_revert">Varsayılan dizin\'e geri gidilsin mi?</string>
     <string name="permission_not_granted">İzin verilmedi</string>
-    <string name="sync_to_local_folder_notice">Not: Bir eşitleme uygulaması kullanırsanız, dosyalar bilinen veya özel klasörlerde bulunabilir, MarkdownHelper\'un belge klasörünü değiştirerek dosyaları açabilir veya dosyayı farklı bir dosya yöneticisi ile açabilirsiniz.</string>
+    <string name="sync_to_local_folder_notice">Not: Bir eşitleme uygulaması kullanırsanız, dosyalar bilinen veya özel klasörlerde bulunabilir, Markdown Helper\'un belge klasörünü değiştirerek dosyaları açabilir veya dosyayı farklı bir dosya yöneticisi ile açabilirsiniz.</string>
     <string name="vertical_alignment">Dikey hizalama</string>
     <string name="horizontal_alignment">Yatay hizalama</string>
     <string name="default_">Varsayılan</string>
@@ -296,8 +296,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">Uygulama Verisi (özel)</string>
     <string name="appdata_sdcard">Uygulama Verisi (SD Kart)</string>
     <string name="internal_storage">Dahili depolama</string>
-    <string name="open_the_document_from_main_view">Belgeyi alt kısımdaki ana görünümden, dosya tarayıcısından veya başlatıcıdan açabilirsiniz. MarkdownHelper\'da paylaşılan metni ekleme seçeneği de vardır.</string>
-    <string name="notebook_is_the_home_of_your_files">Not Defteri, uygulama başlatıldığında MarkdownHelper\'un dosya tarayıcısına yüklediği dizindir. Dosyalarınızın ana dizinidir.</string>
+    <string name="open_the_document_from_main_view">Belgeyi alt kısımdaki ana görünümden, dosya tarayıcısından veya başlatıcıdan açabilirsiniz. Markdown Helper\'da paylaşılan metni ekleme seçeneği de vardır.</string>
+    <string name="notebook_is_the_home_of_your_files">Not Defteri, uygulama başlatıldığında Markdown Helper\'un dosya tarayıcısına yüklediği dizindir. Dosyalarınızın ana dizinidir.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">QuickNote not yazmak için en hızlı seçenektir. &gt;NotDefteri/QuickNote.md &lt; varsayılan konumunda bulunan Markdown biçiminde bir dosyadır, ayarlarda özel bir dosya yolu ayarlayabilirsiniz.</string>
     <string name="todo_is_the_easiest_way_">Görevlerinizi ToDo ile yönetin. &gt;NoteDefteri/todo.txt&lt; varsayılan konumunda todo.txt biçiminde bir dosyadır, ayarlarda özel bir dosya yolu ayarlayabilirsiniz.</string>
     <string name="navigationbar_color">Gezinme çubuğu rengi</string>
@@ -386,7 +386,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">Dosya içeriğini şifrele</string>
     <string name="utf8_with_bom">BOM ile UTF-8</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">Dosya içeriği şifrelenemedi. Dosya kaydedilmedi.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Dosya içeriğinin şifresi çözülemedi. Yanl parola mı kullandınız? Dosya geekten MarkdownHelpers AES şifrelemesi ile şifrelenmiş mi?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Dosya içeriğinin şifresi çözülemedi. Yanl parola mı kullandınız? Dosya geekten Markdown Helpers AES şifrelemesi ile şifrelenmiş mi?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">Parola zaten ayarlanmış. Yeni bir parola belirlemek mevcut parolanın üzerine yazacaktır ve parolayı unutmanız durumunda dosyalara artık erişemeyebilirsiniz.</string>
     <string name="code_block">Kod kalıbı</string>
     <string name="add_completion_date">Tamamlanma tarihi ekle</string>
@@ -443,7 +443,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="match_all">Tümünü Eşleştir</string>
     <string name="dynamic_notebook_root_links">Not defteri kaynağında dinamik arama yap</string>
     <string name="search_dynamically_for_notebook_root">Wiki bağlantılarını takip etmek için, notebook.zim dosyasını mevcut not defterinin kaynağını saptamak için ara. Eğer çoklu zim not defteri kullanıyorsanız ya da uygulamadaki not defteri dizini senin zim not defterinle uyuşmuyorsa bunu işaretle.</string>
-    <string name="share_into_format_prefix_for_text_shared">MarkdownHelper\'a paylaşılan metin için biçim/ön ek. Android\'in SimpleDateFormat kurallarına uyar.\n\nPaylaşılan metni konumlandırmak için {{text}} kullanın. Konum belirtilmezse, biçim başta kullanılır ve paylaşılan metin sona eklenir.</string>
+    <string name="share_into_format_prefix_for_text_shared">Markdown Helper\'a paylaşılan metin için biçim/ön ek. Android\'in SimpleDateFormat kurallarına uyar.\n\nPaylaşılan metni konumlandırmak için {{text}} kullanın. Konum belirtilmezse, biçim başta kullanılır ve paylaşılan metin sona eklenir.</string>
     <string name="share_into_format">Paylaşım - Sayfa Düzeninde</string>
     <string name="attachment_folder_name">Ek klasörün adı</string>
     <string name="attachment_folder_name_desc">Eklerin kaydedileceği geçerli klasörün altındaki alt klasör. Boş bırakılırsa, ekler şuandaki klasöre kaydedilir.</string>

@@ -88,7 +88,7 @@ public class DocumentEditAndViewFragment extends MarkdownHelperBaseFragment impl
     private static final String TAG_SHARE_IMAGE = "MdShareImage";
 
     /**
-     * JPEG quality used for the exported document image. MarkdownHelper's default is 70, which shows
+     * JPEG quality used for the exported document image. Markdown Helper's default is 70, which shows
      * visible blocking artefacts in the large, text heavy images produced here - the bitmap is
      * re-compressed at a high quality instead. {@link android.graphics.Bitmap.CompressFormat#JPEG}
      * further reduces the size, so this costs file size but not sharpness.

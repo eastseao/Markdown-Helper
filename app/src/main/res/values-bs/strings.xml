@@ -183,8 +183,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Crtica (-)</string>
     <string name="unordered_list_char_asterisk">Zvjezdica (*)</string>
     <string name="unordered_list_char_plus">Plus (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownHelper može uređivati samo lokalne dokumente kojima ima pristup i ne podržava programe za upravljanje datotekama koji ne prikazuju cijelu putanju.</string>
-    <string name="sync_to_local_folder_notice">Napomena: Programi za sinhronizaciju nekada smještaju datoteke u vlastite direktorije. Pristupite im tako što ćete promijeniti direktorije u postavkama MarkdownHelpera ili koristite program za upravljanje datotekama.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper može uređivati samo lokalne dokumente kojima ima pristup i ne podržava programe za upravljanje datotekama koji ne prikazuju cijelu putanju.</string>
+    <string name="sync_to_local_folder_notice">Napomena: Programi za sinhronizaciju nekada smještaju datoteke u vlastite direktorije. Pristupite im tako što ćete promijeniti direktorije u postavkama Markdown Helpera ili koristite program za upravljanje datotekama.</string>
     <string name="vertical_alignment">Uspravno poravnanje</string>
     <string name="horizontal_alignment">Vodoravno poravnanje</string>
     <string name="default_">Osnovni</string>
@@ -273,8 +273,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">AppData (privatno)</string>
     <string name="appdata_sdcard">AppData (SD kartica)</string>
     <string name="internal_storage">Interna memorija</string>
-    <string name="open_the_document_from_main_view">Dokument možete otvoriti putem glavnog izbornika u dnu, preglednika datoteka ili pokretačkog programa. Također je moguće dodati tekst podijeljen s MarkdownHelperom.</string>
-    <string name="notebook_is_the_home_of_your_files">Bilježnica je direktorij koji MarkdownHelper pri pokretanju učitava u preglednik datoteka. Ona je centralno mjesto za Vaše datoteke.</string>
+    <string name="open_the_document_from_main_view">Dokument možete otvoriti putem glavnog izbornika u dnu, preglednika datoteka ili pokretačkog programa. Također je moguće dodati tekst podijeljen s Markdown Helperom.</string>
+    <string name="notebook_is_the_home_of_your_files">Bilježnica je direktorij koji Markdown Helper pri pokretanju učitava u preglednik datoteka. Ona je centralno mjesto za Vaše datoteke.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">QuickNote je najbrži način za pisanje bilješki. Datoteka slijedi Markdown notaciju i pohranjena je na &gt;Notebook/QuickNote.md&lt; lokaciji, koja se može promijeniti u podešavanjima.</string>
     <string name="todo_is_the_easiest_way_">Zadacima upravljajte kroz ToDo datoteku, koja slijedi todo.txt metod bilježenja i pohranjena je na &gt;Notebook/todo.txt&lt; lokaciji, koja se može promijeniti u podešavanjima.</string>
     <string name="navigationbar_color">Boja trake za navigaciju</string>
@@ -290,7 +290,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="app_start_folder">Početni direktorij</string>
     <string name="tab_width">Širina tabulatora</string>
     <string name="amount_of_space_for_tab">Broj razmaka za prikaz tabulatora</string>
-    <string name="selected_file_may_be_a_textfile_want_to_open_in_editor">Odabrana datoteka može biti obična tekstualna datoteka. Želite li je otvoriti u MarkdownHelperu ili drugoj aplikaciji?\n\nNe pokušavajte otvoriti binarne datoteke. Ukoliko ste u nedoumici, otvorite je pomoću druge aplikacije.</string>
+    <string name="selected_file_may_be_a_textfile_want_to_open_in_editor">Odabrana datoteka može biti obična tekstualna datoteka. Želite li je otvoriti u Markdown Helperu ili drugoj aplikaciji?\n\nNe pokušavajte otvoriti binarne datoteke. Ukoliko ste u nedoumici, otvorite je pomoću druge aplikacije.</string>
     <string name="list_in_recent_files">Prikaži u nedavno otvorenim datotekama</string>
     <string name="reload">Učitaj ponovo</string>
     <string name="soft_break_if_not_fit_to_width_else_enable_horizontal_scrolling">Kad tekst prelazi širinu ekrana, koristiti blagi prijelom. Ako ne, tad aktivirati vodoravno pomjeranje.</string>
@@ -357,7 +357,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="no_password_set_cannot_encrypt_decrypt">Nije zadata lozinka, ne može se šifrirati ni dešifrirati.\nOtvorite Podešavanja -&gt; Opće -&gt; Lozinka da zadate lozinku.</string>
     <string name="encrypt_file_content">Šifriraj sadržaj datoteke</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">Neuspjelo šifriranje sadržaja. Datoteka nije pohranjena.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Neuspjelo dešifriranje sadržaja. Jeste li unijeli pogrešnu lozinku? Je li za šifriranje korišten MarkdownHelper AES?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Neuspjelo dešifriranje sadržaja. Jeste li unijeli pogrešnu lozinku? Je li za šifriranje korišten Markdown Helper AES?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">Lozinka je već zadana. Definisanjem nove lozinke ona će zamijeniti postojeću i može se dogoditi da ne mognete pristupiti svojim datotekama ako zaboravite lozinku.</string>
     <string name="code_block">Kōd blok</string>
     <string name="add_completion_date">Dodaj datum završetka</string>

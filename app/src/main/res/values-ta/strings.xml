@@ -180,8 +180,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">கோடு (-)</string>
     <string name="unordered_list_char_asterisk">நட்சத்திர குறி (*)</string>
     <string name="unordered_list_char_plus">கூட்டல் குறி (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownHelper ஆல் உங்கள் சாதனத்தில் இருக்கும், இணையத்தொடர்பு தேவைப்படாத ஆவணங்களை மட்டுமே திருத்த முடியும் மற்றும் முழு கோப்பு பாதை வழங்காத கோப்பு மேலாளர் செயலிக்கு ஆதரவளிக்காது.</string>
-    <string name="sync_to_local_folder_notice">குறிப்பு: ஒத்திசைவு செயலிகள் ஆவணங்களை தனிப்பயன் கோப்புறைகளில் வைக்கலாம். MarkdownHelper ன் ஆவண கோப்புறையை மாற்றுதல் அல்லது மற்றய கோப்பு நிர்வாகி மூலம் அவைகளை திறக்கலாம்.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper ஆல் உங்கள் சாதனத்தில் இருக்கும், இணையத்தொடர்பு தேவைப்படாத ஆவணங்களை மட்டுமே திருத்த முடியும் மற்றும் முழு கோப்பு பாதை வழங்காத கோப்பு மேலாளர் செயலிக்கு ஆதரவளிக்காது.</string>
+    <string name="sync_to_local_folder_notice">குறிப்பு: ஒத்திசைவு செயலிகள் ஆவணங்களை தனிப்பயன் கோப்புறைகளில் வைக்கலாம். Markdown Helper ன் ஆவண கோப்புறையை மாற்றுதல் அல்லது மற்றய கோப்பு நிர்வாகி மூலம் அவைகளை திறக்கலாம்.</string>
     <string name="vertical_alignment">செங்குத்து சீரமைப்பு</string>
     <string name="horizontal_alignment">கிடைமட்ட சீரமைப்பு</string>
     <string name="default_">இயல்புநிலை</string>
@@ -268,8 +268,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">செயலித்தரவு (தனிப்பட்டவை)</string>
     <string name="appdata_sdcard">செயலித்தரவு (நினைவக அட்டை)</string>
     <string name="internal_storage">அகச் சேமிப்பகம்</string>
-    <string name="open_the_document_from_main_view">கீழேயுள்ள பிரதான பார்வை, கோப்பு உலாவி அல்லது துவக்கியிலிருந்து ஆவணத்தைத் திறக்கலாம். பகிரப்பட்ட உரையை சேர்ப்பதற்கும் MarkdownHelper ல் ஒரு விருப்ப தேர்வு உள்ளது.</string>
-    <string name="notebook_is_the_home_of_your_files">குறிப்புப்புத்தகம் என்பது ஒரு கோப்புறையாகும் MarkdownHelper ஆவண உலாவியில் இருந்து செயலி தொடங்கும்போது இதை ஏற்றுகிறது. இதுவே உங்கள் ஆவணங்களின் முதன்மை கோப்புறையாகும்.</string>
+    <string name="open_the_document_from_main_view">கீழேயுள்ள பிரதான பார்வை, கோப்பு உலாவி அல்லது துவக்கியிலிருந்து ஆவணத்தைத் திறக்கலாம். பகிரப்பட்ட உரையை சேர்ப்பதற்கும் Markdown Helper ல் ஒரு விருப்ப தேர்வு உள்ளது.</string>
+    <string name="notebook_is_the_home_of_your_files">குறிப்புப்புத்தகம் என்பது ஒரு கோப்புறையாகும் Markdown Helper ஆவண உலாவியில் இருந்து செயலி தொடங்கும்போது இதை ஏற்றுகிறது. இதுவே உங்கள் ஆவணங்களின் முதன்மை கோப்புறையாகும்.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">QuickNote என்பது விரைவாக குறிப்புகளை எழுதுவதற்கு ஒரு தேர்வாகும். இது Markdown முறையில் உள்ள ஒரு ஆவணமாகும் இதன் இயல்புநிலை இடமானது &gt;Notebook/QuickNote.md&lt;, நீங்கள் இந்த ஆவணத்திற்கு வேறு ஒரு கோப்பு பாதையை அமைப்புகளில் மாற்ற முடியும்.</string>
     <string name="todo_is_the_easiest_way_">உங்கள் செயல்களை நிர்வகிக்க ToDo வகை ஆவணத்தை பயன்படுத்தவும். அது  todo.txt முறையில் உள்ள ஆவணமாகும் இதன் இயல்புநிலை இடமானது &gt;Notebook/todo.txt&lt;, நீங்கள் இந்த ஆவணத்திற்கு வேறு ஒரு கோப்பு பாதையை அமைப்புகளில் மாற்ற முடியும்.</string>
     <string name="navigationbar_color">வழிநடத்தும் பட்டியின் நிறம்</string>
@@ -348,7 +348,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="no_password_set_cannot_encrypt_decrypt">எந்த கடவுச்சொல்லும் நிறுவப்படவில்லை, அதனால் மறைக்குறியாக்கவோ அல்லது மறைவிலக்கம் செய்ய முடியாது.\nஅமைப்புகளுக்கு செல்லவும் -&gt; பொது -&gt; கடவுச்சொல் மூலம் கடவுச்சொல்லை நிறுவவும்.</string>
     <string name="encrypt_file_content">ஆவண உள்ளடக்கத்தை மறைக்குறியாக்கம் செய்</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">ஆவணத்தை உள்ளடக்கத்தை மறைக்குறியாக்கம் செய்ய முடியவில்லை ஏன்னென்றால் ஆவணம் சேமிக்கப்படவில்லை.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">ஆவண உள்ளடக்கங்களை மறைவிலக்கம் செய்ய முடியவில்லை. தவறான கடவுச்சொல்லை பயன்படுத்திவிட்டீர்களா? உண்மையாகவே MarkdownHelper செயலியின் AES மறைக்குறியாக்க முறை கொண்டே இந்த ஆவணம் மறைக்குறியாக்கம் செய்யப்பட்டதா?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">ஆவண உள்ளடக்கங்களை மறைவிலக்கம் செய்ய முடியவில்லை. தவறான கடவுச்சொல்லை பயன்படுத்திவிட்டீர்களா? உண்மையாகவே Markdown Helper செயலியின் AES மறைக்குறியாக்க முறை கொண்டே இந்த ஆவணம் மறைக்குறியாக்கம் செய்யப்பட்டதா?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">கடவுச்சொல் ஏற்கனவே நிறுவப்பட்டுவிட்டது. புதிய கடவுச்சொல்லை நிறுவுவதன் மூலம் பழைய கடவுச்சொல் நீக்கப்படும் மற்றும் நீங்கள் கடவுச்சொல்லை மறந்துவிட்டீர்கள் என்றால் உங்களால் ஆவணங்களை அணுக முடியாமல் போகலாம்.</string>
     <string name="code_block">நிரல் தொகுதி</string>
 </resources>

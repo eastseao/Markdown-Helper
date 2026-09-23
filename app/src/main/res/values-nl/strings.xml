@@ -195,12 +195,12 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Streepje (-)</string>
     <string name="unordered_list_char_asterisk">Asterisk (*)</string>
     <string name="unordered_list_char_plus">Plus (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownHelper kan alleen lokale, offline beschikbare documenten bewerken en ondersteunt geen bestandsbeheerders die niet het volledige bestandspad aangeven.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper kan alleen lokale, offline beschikbare documenten bewerken en ondersteunt geen bestandsbeheerders die niet het volledige bestandspad aangeven.</string>
     <string name="file_does_not_exist_and_cant_be_created">Bestand of folder bestaat niet en kan niet worden aangemaakt</string>
     <string name="permissions">Permissies</string>
     <string name="permission_paths_revert">Standaard paden herstellen?</string>
     <string name="permission_not_granted">Geen permissie verleend</string>
-    <string name="sync_to_local_folder_notice">Opmerking: Sync apps kunnen bestanden plaatsen in aangepaste mappen. Open ze door de document map van MarkdownHelper dienovereenkomstig te wijzigen, of in een andere bestandsbeheerder.</string>
+    <string name="sync_to_local_folder_notice">Opmerking: Sync apps kunnen bestanden plaatsen in aangepaste mappen. Open ze door de document map van Markdown Helper dienovereenkomstig te wijzigen, of in een andere bestandsbeheerder.</string>
     <string name="vertical_alignment">Verticale uitlijning</string>
     <string name="horizontal_alignment">Horizontale uitleining</string>
     <string name="default_">Standaard</string>
@@ -294,8 +294,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">AppData (privé)</string>
     <string name="appdata_sdcard">AppData (SD-kaart)</string>
     <string name="internal_storage">Interne opslag</string>
-    <string name="open_the_document_from_main_view">U kunt het document openen vanuit de hoofdweergave op de onderkant, de bestandsbrowser of de launcher. Er is ook een optie om tekst toe te voegen die in MarkdownHelper wordt gedeeld.</string>
-    <string name="notebook_is_the_home_of_your_files">Notebook is de map die MarkdownHelper in de bestandsbrowser laadt wanneer de app is gestart. Het is de home map van uw bestanden.</string>
+    <string name="open_the_document_from_main_view">U kunt het document openen vanuit de hoofdweergave op de onderkant, de bestandsbrowser of de launcher. Er is ook een optie om tekst toe te voegen die in Markdown Helper wordt gedeeld.</string>
+    <string name="notebook_is_the_home_of_your_files">Notebook is de map die Markdown Helper in de bestandsbrowser laadt wanneer de app is gestart. Het is de home map van uw bestanden.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">QuickNote is de snelste optie om notities op te schrijven. Het is een bestand in Markdown formaat met standaard locatie &gt;Notebook/QuickNote.md&lt;, u kunt een aangepast bestandspad instellen in de instellingen.</string>
     <string name="todo_is_the_easiest_way_">Beheer uw taken met ToDo. Het is een bestand in todo.txt formaat met standaard locatie &gt;Notebook/todo.txt&lt;, u kunt een aangepast bestandspad instellen in de instellingen.</string>
     <string name="navigationbar_color">Kleur navigatiebalk</string>
@@ -384,7 +384,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">Versleutel bestandsinhoud</string>
     <string name="utf8_with_bom">UTF-8 met BOM</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">Kon bestandsinhoud niet versleutelen. Het bestand is niet opgeslagen.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Kon bestandsinhoud niet decoderen. Heeft u een verkeerd wachtwoord gebruikt? Is het bestand echt versleuteld met MarkdownHelpers AES encryptie?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Kon bestandsinhoud niet decoderen. Heeft u een verkeerd wachtwoord gebruikt? Is het bestand echt versleuteld met Markdown Helpers AES encryptie?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">Wachtwoord is al ingesteld Een nieuw wachtwoord instellen zal het bestaande wachtwoord overschrijven en u zult mogelijk geen toegang meer hebben tot bestanden indien u het wachtwoord vergeet.</string>
     <string name="code_block">Code blok</string>
     <string name="add_completion_date">Voeg voltooiingsdatum toe</string>
@@ -440,7 +440,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="match_all">Alles overeenkomen</string>
     <string name="dynamic_notebook_root_links">Dynamisch zoeken naar notitieboekroot</string>
     <string name="search_dynamically_for_notebook_root">Om wiki-links te volgen, zoek je dynamisch naar het notebook.zim-bestand om de hoofdmap te identificeren voor het huidige notitieboek. Vink dit aan als je meerdere zim-notitieboekjes of de schrijffolder in de app niet overeenkomt met je zim-notitieboekje.</string>
-    <string name="share_into_format_prefix_for_text_shared">Indeling/voorvoegsel voor tekst gedeeld in MarkdownHelper. Volgt de SimpleDateFormat-regels van Android.\n\nGebruik de plaatsaanduiding {{text}} om de gedeelde tekst te positioneren. Indien niet opgegeven, wordt de gedeelde tekst toegevoegd en wordt de opmaak als voorvoegsel gebruikt.</string>
+    <string name="share_into_format_prefix_for_text_shared">Indeling/voorvoegsel voor tekst gedeeld in Markdown Helper. Volgt de SimpleDateFormat-regels van Android.\n\nGebruik de plaatsaanduiding {{text}} om de gedeelde tekst te positioneren. Indien niet opgegeven, wordt de gedeelde tekst toegevoegd en wordt de opmaak als voorvoegsel gebruikt.</string>
     <string name="share_into_format">Deel mee - Formaat</string>
     <string name="attachment_folder_name">Foldernaam voor bijlagen</string>
     <string name="attachment_folder_name_desc">Submap onder de huidige map waarin bijlagen worden opgeslagen. Indien leeg gelaten, worden bijlagen in de huidige map opgeslagen.</string>

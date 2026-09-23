@@ -4,7 +4,7 @@
 number;text;finishing date
 
 # csv can contain markdown formatting
-1;Learn to use **MarkdownHelper** formatting
+1;Learn to use **Markdown Helper** formatting
 
 # use "..." if the column contains reserved chars
 2;"Use Delimitter chars like "";    :,";2019-06-24

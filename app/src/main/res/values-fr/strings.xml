@@ -192,12 +192,12 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Tiret (-)</string>
     <string name="unordered_list_char_asterisk">Asterisk (*)</string>
     <string name="unordered_list_char_plus">Plus (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownHelper ne peut éditer que des fichiers locaux, disponibles hors connexion, et ne supporte pas les gestionnaires de fichiers qui ne fournissent pas le chemin d’accès complet du fichier.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper ne peut éditer que des fichiers locaux, disponibles hors connexion, et ne supporte pas les gestionnaires de fichiers qui ne fournissent pas le chemin d’accès complet du fichier.</string>
     <string name="file_does_not_exist_and_cant_be_created">Le fichier ou le dossier n\'existe pas et ne peut pas être créé</string>
     <string name="permissions">Permissions</string>
     <string name="permission_paths_revert">Rétablir les chemins de fichiers par défaut ?</string>
     <string name="permission_not_granted">Permission non accordée</string>
-    <string name="sync_to_local_folder_notice">Remarque : Les applications de synchronisation peuvent placer des fichiers dans des dossiers personnalisés. Ouvrez-les en modifiant le dossier de document de MarkdownHelper en conséquence, ou dans un autre gestionnaire de fichiers.</string>
+    <string name="sync_to_local_folder_notice">Remarque : Les applications de synchronisation peuvent placer des fichiers dans des dossiers personnalisés. Ouvrez-les en modifiant le dossier de document de Markdown Helper en conséquence, ou dans un autre gestionnaire de fichiers.</string>
     <string name="vertical_alignment">Alignement vertical</string>
     <string name="horizontal_alignment">Alignement horizontal</string>
     <string name="default_">Par défaut</string>
@@ -291,8 +291,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">Données de l\'applications (privé)</string>
     <string name="appdata_sdcard">Données de l\'application (Carte SD)</string>
     <string name="internal_storage">Stockage interne</string>
-    <string name="open_the_document_from_main_view">Vous pouvez ouvrir le document depuis la vue principale en bas, le navigateur de fichiers ou le lanceur. Il y a aussi une option pour ajouter du texte partagé via MarkdownHelper.</string>
-    <string name="notebook_is_the_home_of_your_files">Notebook est le dossier depuis lequel MarkdownHelper charge les fichiers à son démarrage. C\'est le dossier principal de vos fichiers.</string>
+    <string name="open_the_document_from_main_view">Vous pouvez ouvrir le document depuis la vue principale en bas, le navigateur de fichiers ou le lanceur. Il y a aussi une option pour ajouter du texte partagé via Markdown Helper.</string>
+    <string name="notebook_is_the_home_of_your_files">Notebook est le dossier depuis lequel Markdown Helper charge les fichiers à son démarrage. C\'est le dossier principal de vos fichiers.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">QuickNote est l\'option la plus rapide pour prendre des notes. Il s\'agit d\'un fichier au format Markdown dont l\'emplacement par défaut est &gt;Notebook/QuickNote.md&lt;, vous pouvez définir un emplacement personnalisé dans les paramètres.</string>
     <string name="todo_is_the_easiest_way_">Gérez vos tâches avec ToDo. Il s\'agit d\'un fichier au format todo.txt dont l\'emplacement par défaut est &gt;NoteBook/todo.txt&lt;, vous pouvez définir un emplacement personnalisé dans les paramètres.</string>
     <string name="navigationbar_color">Couleur de la barre de navigation</string>
@@ -381,7 +381,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">Chiffrer le contenu du fichier</string>
     <string name="utf8_with_bom">UTF-8 avec BOM</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">Impossible de chiffrer le contenu du fichier. Le fichier n\'a pas été enregistré.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Impossible de déchiffrer le contenu du fichier. Avez-vous utilisé un mauvais mot de passe ? Le fichier est-il vraiment chiffré avec le chiffrement AES de MarkdownHelpers ?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Impossible de déchiffrer le contenu du fichier. Avez-vous utilisé un mauvais mot de passe ? Le fichier est-il vraiment chiffré avec le chiffrement AES de Markdown Helpers ?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">Mot de passe déjà défini. Définir un nouveau mot de passe écrasera le mot de passe existant et vous risquez de ne plus pouvoir accéder aux fichiers en cas d\'oubli du mot de passe.</string>
     <string name="code_block">Bloc de code</string>
     <string name="add_completion_date">Ajouter une date de fin</string>
@@ -437,7 +437,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="match_all">Tout faire correspondre</string>
     <string name="dynamic_notebook_root_links">Recherche dynamique de la racine du bloc-notes</string>
     <string name="search_dynamically_for_notebook_root">Afin de suivre les liens du wiki, recherchez dynamiquement le fichier notebook.zim pour identifier le répertoire racine du cahier actuel. Cochez cette case si vous utilisez plusieurs blocs-notes zim ou si le répertoire de bloc-notes défini dans l\'application ne correspond pas à votre bloc-notes zim.</string>
-    <string name="share_into_format_prefix_for_text_shared">Format/Préfixe des textes partagés dans MarkdownHelper. Suis les règles de format de dates simplifiées d\'Android.\n\nUtiliser le texte réservé {{text}} pour positionner le texte partagé. S\'il n\'est pas spécifié, le texte partagé sera annexés et le format utilisé comme préfixe.</string>
+    <string name="share_into_format_prefix_for_text_shared">Format/Préfixe des textes partagés dans Markdown Helper. Suis les règles de format de dates simplifiées d\'Android.\n\nUtiliser le texte réservé {{text}} pour positionner le texte partagé. S\'il n\'est pas spécifié, le texte partagé sera annexés et le format utilisé comme préfixe.</string>
     <string name="share_into_format">Partager dans - Format</string>
     <string name="attachment_folder_name">Nom du dossier en attachement</string>
     <string name="attachment_folder_name_desc">Les sous-dossiers du dossier actuel où les pièces-jointes seront sauvegarder. Si laissé blanc, les pièces jointes seront sauvegardé dans le dossier actuel.</string>

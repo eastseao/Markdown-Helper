@@ -6,7 +6,7 @@
 Plan backyard herb garden @home
 Buy salad @shop
 Write blog post @pc
-Install MarkdownHelper @mobile
+Install Markdown Helper @mobile
 2019-06-24 scan photos @home +blog
 2019-06-25 draw diagram @work 
 x This has been done @home +renovations

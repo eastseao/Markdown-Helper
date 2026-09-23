@@ -188,10 +188,10 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Pomlčka (-)</string>
     <string name="unordered_list_char_asterisk">Hvězdička (*)</string>
     <string name="unordered_list_char_plus">Plus (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownHelper může upravovat pouze lokální, offline dostupné dokumenty a nepodporuje správce souborů, které neposkytují plnou cestu ke souborům.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper může upravovat pouze lokální, offline dostupné dokumenty a nepodporuje správce souborů, které neposkytují plnou cestu ke souborům.</string>
     <string name="permissions">Oprávnění</string>
     <string name="permission_not_granted">Povolení nebylo uděleno</string>
-    <string name="sync_to_local_folder_notice">Poznámka: Synchronizační aplikace mohou ukládat soubory do vlastních složek. Otevřete je tím, že změníte v aplikaci MarkdownHelper umístění složky s dokumenty, nebo pomocí správce souborů.</string>
+    <string name="sync_to_local_folder_notice">Poznámka: Synchronizační aplikace mohou ukládat soubory do vlastních složek. Otevřete je tím, že změníte v aplikaci Markdown Helper umístění složky s dokumenty, nebo pomocí správce souborů.</string>
     <string name="vertical_alignment">Vertikální vyrovnání</string>
     <string name="horizontal_alignment">Vodorovné zarovnání</string>
     <string name="default_">Standardní</string>
@@ -282,8 +282,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">AppData (soukromá)</string>
     <string name="appdata_sdcard">AppData (SD karta)</string>
     <string name="internal_storage">Vnitřní úložiště</string>
-    <string name="open_the_document_from_main_view">Dokument můžete otevřít z hlavního zobrazení dole, z prohlížeče souborů nebo launcheru. Je zde také možnost připojit sdílený text do aplikace MarkdownHelper.</string>
-    <string name="notebook_is_the_home_of_your_files">Notebook je složka, kterou MarkdownHelper načítá v prohlížeči souborů, když je aplikace spuštěna. Je to domácí složka vašich souborů.</string>
+    <string name="open_the_document_from_main_view">Dokument můžete otevřít z hlavního zobrazení dole, z prohlížeče souborů nebo launcheru. Je zde také možnost připojit sdílený text do aplikace Markdown Helper.</string>
+    <string name="notebook_is_the_home_of_your_files">Notebook je složka, kterou Markdown Helper načítá v prohlížeči souborů, když je aplikace spuštěna. Je to domácí složka vašich souborů.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">QuickNote je nejrychlejší možnost pro psaní poznámek. Je to soubor ve formátu Markdown s výchozí pozicí &gt;Notebook/QuickNote.md&lt;, můžete nastavit vlastní cestu k souboru v nastaveních.</string>
     <string name="todo_is_the_easiest_way_">Spravujte své úkoly pomocí ToDo. Je to soubor ve formátu todo.txt s výchozím umístění v &gt;Notebook/todo. xt&lt;, můžete nastavit vlastní cestu k souborům v nastavení.</string>
     <string name="navigationbar_color">Barva navigačního panelu</string>
@@ -370,7 +370,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">Šifrovat obsah souboru</string>
     <string name="utf8_with_bom">UTF-8 s BOM</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">Nelze zašifrovat obsah souboru. Soubor nebyl uložen.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Nelze dešifrovat obsah souboru. Použito nesprávné heslo? Je soubor opravdu šifrován pomocí AES šifrování programu MarkdownHelper?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Nelze dešifrovat obsah souboru. Použito nesprávné heslo? Je soubor opravdu šifrován pomocí AES šifrování programu Markdown Helper?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">Heslo je již nastaveno. Zadáním nového hesla se přepíše stávající heslo a v případě, že ho zapomenete, již možná nebudete moci přistupovat k souborům.</string>
     <string name="code_block">Blok kódu</string>
     <string name="add_completion_date">Přidat datum dokončení</string>

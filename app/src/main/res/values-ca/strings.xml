@@ -199,12 +199,12 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Guió (-)</string>
     <string name="unordered_list_char_asterisk">Asterisc (*)</string>
     <string name="unordered_list_char_plus">Suma (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownHelper només pot editar documents locals disponibles sense connexió i no admet administradors d\'arxius que no proporcionin la ruta completa del fitxer.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper només pot editar documents locals disponibles sense connexió i no admet administradors d\'arxius que no proporcionin la ruta completa del fitxer.</string>
     <string name="file_does_not_exist_and_cant_be_created">El fitxer o el directori no existeix i no es pot crear</string>
     <string name="permissions">Permisos</string>
     <string name="permission_paths_revert">Voleu tornar a les rutes per defecte?</string>
     <string name="permission_not_granted">Permís no concedit</string>
-    <string name="sync_to_local_folder_notice">Avís: les aplicacions de sincronització poden col·locar fitxers en carpetes personalitzades. Podeu obrir-les canviant la carpeta de documents de MarkdownHelper o en un altre gestor de fitxers.</string>
+    <string name="sync_to_local_folder_notice">Avís: les aplicacions de sincronització poden col·locar fitxers en carpetes personalitzades. Podeu obrir-les canviant la carpeta de documents de Markdown Helper o en un altre gestor de fitxers.</string>
     <string name="vertical_alignment">Alineació vertical</string>
     <string name="horizontal_alignment">Alineació horitzontal</string>
     <string name="default_">Per defecte</string>
@@ -299,8 +299,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">AppData (privat)</string>
     <string name="appdata_sdcard">AppData (targeta SD)</string>
     <string name="internal_storage">Emmagatzematge intern</string>
-    <string name="open_the_document_from_main_view">Podeu obrir el document des de la vista principal a la part inferior, al navegador de fitxers o al llançador. També hi ha una opció per afegir text compartit al MarkdownHelper.</string>
-    <string name="notebook_is_the_home_of_your_files">El quadern és la carpeta que MarkdownHelper carrega al navegador de fitxers quan s\'inicia l\'aplicació. És la carpeta inicial dels vostres fitxers.</string>
+    <string name="open_the_document_from_main_view">Podeu obrir el document des de la vista principal a la part inferior, al navegador de fitxers o al llançador. També hi ha una opció per afegir text compartit al Markdown Helper.</string>
+    <string name="notebook_is_the_home_of_your_files">El quadern és la carpeta que Markdown Helper carrega al navegador de fitxers quan s\'inicia l\'aplicació. És la carpeta inicial dels vostres fitxers.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">QuickNote és l’opció més ràpida per escriure notes. És un fitxer en format Markdown amb la ubicació per defecte &gt;Quadern/QuickNote.md&lt;, podeu establir una ruta de fitxers personalitzada a la configuració.</string>
     <string name="todo_is_the_easiest_way_">Gestioneu les vostres tasques amb ToDo. És un fitxer en format todo.txt amb la ubicació per defecte &gt;Quadern/todo.txt&lt;, podeu establir una ruta de fitxers personalitzada a la configuració.</string>
     <string name="navigationbar_color">Color de la barra de navegació</string>
@@ -406,7 +406,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">Xifra el contingut del fitxer</string>
     <string name="utf8_with_bom">UTF-8 amb BOM</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">No s\'ha pogut xifrar el contingut del fitxer. El fitxer no s\'ha desat.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">No s\'ha pogut desxifrar el contingut del fitxer. Heu utilitzat una contrasenya errònia? El fitxer s\'ha xifrat realment amb el xifrat AES del MarkdownHelper?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">No s\'ha pogut desxifrar el contingut del fitxer. Heu utilitzat una contrasenya errònia? El fitxer s\'ha xifrat realment amb el xifrat AES del Markdown Helper?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">La contrasenya ja està definida. Establir una nova sobreescriurà la contrasenya existent i és possible que ja no pugueu accedir als fitxers en cas que oblideu la contrasenya.</string>
     <string name="code_block">Bloc de codi</string>
     <string name="add_completion_date">Afegeix data de finalització</string>
@@ -464,7 +464,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="match_all">Coincideix amb tots</string>
     <string name="dynamic_notebook_root_links">Cerca dinàmica de l\'arrel del quadern</string>
     <string name="search_dynamically_for_notebook_root">Per seguir els enllaços wiki, cerqueu dinàmicament el fitxer notebook.zim per identificar el directori arrel del quadern actual. Marqueu-ho si feu servir diversos quaderns zim o el directori de quaderns establert a l\'aplicació no es correspon amb el vostre quadern zim.</string>
-    <string name="share_into_format_prefix_for_text_shared">Format/Prefix per al text compartit al MarkdownHelper. Segueix les regles SimpleDateFormat d\'Android.\n\nUtilitzeu el marcador de posició {{text}} per posicionar el text compartit. Si no s\'especifica, s\'afegeix el text compartit i el format s\'utilitza com a prefix.</string>
+    <string name="share_into_format_prefix_for_text_shared">Format/Prefix per al text compartit al Markdown Helper. Segueix les regles SimpleDateFormat d\'Android.\n\nUtilitzeu el marcador de posició {{text}} per posicionar el text compartit. Si no s\'especifica, s\'afegeix el text compartit i el format s\'utilitza com a prefix.</string>
     <string name="share_into_format">Comparteix en - Format</string>
     <string name="attachment_folder_name">Nom de la carpeta adjunta</string>
     <string name="attachment_folder_name_desc">Subcarpeta sota la carpeta actual on es desaran els fitxers adjunts. Si es deixa en blanc, els fitxers adjunts es desaran a la carpeta actual.</string>

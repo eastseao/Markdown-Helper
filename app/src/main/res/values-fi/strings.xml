@@ -184,8 +184,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Ajatusviiva (-)</string>
     <string name="unordered_list_char_asterisk">Asteriski (*)</string>
     <string name="unordered_list_char_plus">Plussa (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownHelper voi muokata vain paikallisia, offline-tilassa käytettävissä olevia asiakirjoja, eikä tue tiedostojen hallintaa, jotka eivät tarjoa koko tiedostopolkua.</string>
-    <string name="sync_to_local_folder_notice">Huomaa: Synkronointisovellukset voivat sijoittaa tiedostoja mukautettuihin kansioihin. Avaa ne muuttamalla MarkdownHelperin asiakirjakansio vastaavasti tai toisessa tiedostohallinnassa.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper voi muokata vain paikallisia, offline-tilassa käytettävissä olevia asiakirjoja, eikä tue tiedostojen hallintaa, jotka eivät tarjoa koko tiedostopolkua.</string>
+    <string name="sync_to_local_folder_notice">Huomaa: Synkronointisovellukset voivat sijoittaa tiedostoja mukautettuihin kansioihin. Avaa ne muuttamalla Markdown Helperin asiakirjakansio vastaavasti tai toisessa tiedostohallinnassa.</string>
     <string name="vertical_alignment">Pystytasaus</string>
     <string name="horizontal_alignment">Vaakatasaus</string>
     <string name="default_">Oletus</string>
@@ -274,8 +274,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">AppData (yksityinen)</string>
     <string name="appdata_sdcard">AppData (muistikortti)</string>
     <string name="internal_storage">Sisäinen tallennustila</string>
-    <string name="open_the_document_from_main_view">Voit avata asiakirjan päänäkymästä alhaalla, tiedostoselain tai kantorakettien päänäkymästä. Myös MarkdownHelperiin on mahdollista liittää yhteinen teksti.</string>
-    <string name="notebook_is_the_home_of_your_files">Muistiinpanot on kansio, jonka MarkdownHelper lataa tiedostoselaimeen, kun sovellus käynnistetään. Se on tiedostojesi kotikansio.</string>
+    <string name="open_the_document_from_main_view">Voit avata asiakirjan päänäkymästä alhaalla, tiedostoselain tai kantorakettien päänäkymästä. Myös Markdown Helperiin on mahdollista liittää yhteinen teksti.</string>
+    <string name="notebook_is_the_home_of_your_files">Muistiinpanot on kansio, jonka Markdown Helper lataa tiedostoselaimeen, kun sovellus käynnistetään. Se on tiedostojesi kotikansio.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">QuickNote on nopein vaihtoehto muistiinpanojen kirjoittamiseen. Se on tiedosto Markdown-muodossa, jonka oletussijainti on &gt;Notebook/QuickNote.md&lt;, voit määrittää mukautetun tiedostopolun asetuksissa.</string>
     <string name="todo_is_the_easiest_way_">Hallitse tehtäviäsi ToDo:lla. Se on tiedosto todo.txt-muodossa, jonka oletussijainti on &gt;Notebook/todo.txt&lt;, voit määrittää mukautetun tiedostopolun asetuksissa.</string>
     <string name="navigationbar_color">Navigointipalkin väri</string>
@@ -360,7 +360,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">Salaa tiedoston sisältö</string>
     <string name="utf8_with_bom">UTF-8 BOM:n kanssa</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">Tiedoston sisältöä ei voitu salata. Tiedostoa ei tallennettu.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Tiedoston sisältöä ei voitu purkaa. Käytetkö väärää salasanaa? Onko tiedosto todella salattu MarkdownHelpers AES salauksella?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Tiedoston sisältöä ei voitu purkaa. Käytetkö väärää salasanaa? Onko tiedosto todella salattu Markdown Helpers AES salauksella?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">Salasana on jo asetettu. Uuden salasanan asettaminen ylikirjoittaa olemassa olevan, etkä välttämättä pääse enää käsiksi tiedostoihisi, jos unohdat salasanan.</string>
     <string name="code_block">Koodilohko</string>
     <string name="add_completion_date">Lisää valmistumispäivä</string>

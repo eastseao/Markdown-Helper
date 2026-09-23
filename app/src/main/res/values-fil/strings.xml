@@ -183,8 +183,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Gitling (-)</string>
     <string name="unordered_list_char_asterisk">Asterisk (*)</string>
     <string name="unordered_list_char_plus">Plus (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">Maari lamang mag-edit ang MarkdownHelper ng lokal at offline na mga dokumento at hindi nito sinusuportahan ang mga file manager na hindi nagbibigay ng buong daanan ng file.</string>
-    <string name="sync_to_local_folder_notice">Tandaan: Maaring maglagay ng mga file sa mga custom na folder ang mga app sa pagsi-sync. Buksan sila sa pamamagitan ng pagbago sa folder ng dokumento ng MarkdownHelper, o di kaya naman sa isang file manager.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">Maari lamang mag-edit ang Markdown Helper ng lokal at offline na mga dokumento at hindi nito sinusuportahan ang mga file manager na hindi nagbibigay ng buong daanan ng file.</string>
+    <string name="sync_to_local_folder_notice">Tandaan: Maaring maglagay ng mga file sa mga custom na folder ang mga app sa pagsi-sync. Buksan sila sa pamamagitan ng pagbago sa folder ng dokumento ng Markdown Helper, o di kaya naman sa isang file manager.</string>
     <string name="vertical_alignment">Patayong pagkakahanay</string>
     <string name="horizontal_alignment">Pahigang pagkakahanay</string>
     <string name="default_">Default</string>
@@ -271,8 +271,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">AppData (pampribado)</string>
     <string name="appdata_sdcard">AppData (SD Card)</string>
     <string name="internal_storage">Internal na storage</string>
-    <string name="open_the_document_from_main_view">Maari mong buksan ang dokumento mula sa pangunahing view sa ibaba, mula sa file browser o kaya naman sa launcher. May opsyon din na idagdag ang ibinahaging teksto sa MarkdownHelper.</string>
-    <string name="notebook_is_the_home_of_your_files">Ang Notebook ay ang folder na nilo-load ng MarkdownHelper sa file brower sa kada magbubukas ang app. Ito ang home folder ng iyong mga file.</string>
+    <string name="open_the_document_from_main_view">Maari mong buksan ang dokumento mula sa pangunahing view sa ibaba, mula sa file browser o kaya naman sa launcher. May opsyon din na idagdag ang ibinahaging teksto sa Markdown Helper.</string>
+    <string name="notebook_is_the_home_of_your_files">Ang Notebook ay ang folder na nilo-load ng Markdown Helper sa file brower sa kada magbubukas ang app. Ito ang home folder ng iyong mga file.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">Ang Quicknote ay ang pinakamabilis na opsyon para magsulat ng mga tala. Ito ay isang file sa format na Markdown na default na nakalagay sa &gt;Notebook/QuickNote.md&lt;, maari kang magtakda ng custom na filepath sa mga pagsasaayos.</string>
     <string name="todo_is_the_easiest_way_">Pamahalaan ang iyong mga gawain sa ToDo. Ito ay isang file sa format na todo.txt na default na nakalagay sa &gt;Notebook/todo.txt&lt;, maari kang magtakda ng custom ng filepath sa mga pagsasaayos.</string>
     <string name="navigationbar_color">Kulay ng navigation bar</string>

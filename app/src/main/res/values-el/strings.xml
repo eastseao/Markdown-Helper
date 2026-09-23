@@ -187,12 +187,12 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Παύλα (-)</string>
     <string name="unordered_list_char_asterisk">Αστερίσκος (*)</string>
     <string name="unordered_list_char_plus">Συν (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">Το MarkdownHelper μπορεί να επεξεργαστεί μόνο τοπικά, offline διαθέσιμα έγγραφα και δεν υποστηρίζει διαχειριστές αρχείων που δεν παρέχουν την πλήρη διαδρομή αρχείου.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">Το Markdown Helper μπορεί να επεξεργαστεί μόνο τοπικά, offline διαθέσιμα έγγραφα και δεν υποστηρίζει διαχειριστές αρχείων που δεν παρέχουν την πλήρη διαδρομή αρχείου.</string>
     <string name="file_does_not_exist_and_cant_be_created">Ένα αρχείο ή φάκελος δεν υπάρχει και δεν μπορεί να δημιουργηθεί</string>
     <string name="permissions">Δικαιώματα</string>
     <string name="permission_paths_revert">Επαναφορά των προεπιλογών;</string>
     <string name="permission_not_granted">Άδεια δεν εκχωρήθηκε</string>
-    <string name="sync_to_local_folder_notice">Σημείωση: Οι εφαρμογές συγχρονισμού μπορούν να τοποθετούν αρχεία σε προσαρμοσμένους φακέλους. Ανοίξτε τα αλλάζοντας αναλόγως το φάκελο εγγράφων του MarkdownHelper, ή σε άλλο διαχειριστή αρχείων.</string>
+    <string name="sync_to_local_folder_notice">Σημείωση: Οι εφαρμογές συγχρονισμού μπορούν να τοποθετούν αρχεία σε προσαρμοσμένους φακέλους. Ανοίξτε τα αλλάζοντας αναλόγως το φάκελο εγγράφων του Markdown Helper, ή σε άλλο διαχειριστή αρχείων.</string>
     <string name="vertical_alignment">Κατακόρυφη στοίχιση</string>
     <string name="horizontal_alignment">Οριζόντια στοίχιση</string>
     <string name="default_">Προεπιλογή</string>
@@ -282,8 +282,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">AppData (ιδιωτικό)</string>
     <string name="appdata_sdcard">AppData (Κάρτα SD)</string>
     <string name="internal_storage">Εσωτερικός αποθηκευτικός χώρος</string>
-    <string name="open_the_document_from_main_view">Μπορείτε να ανοίξετε το έγγραφο από την κύρια προβολή στο κάτω μέρος, τον περιηγητή αρχείων ή τον εκκινητή. Υπάρχει επίσης μια επιλογή για την προσθήκη κειμένου που κοινοποιήθηκε στο MarkdownHelper.</string>
-    <string name="notebook_is_the_home_of_your_files">Σημειωματάριο είναι ο φάκελος που το MarkdownHelper φορτώνει στο πρόγραμμα περιήγησης αρχείων όταν ξεκινά η εφαρμογή. Είναι ο αρχικός φάκελος των αρχείων σας.</string>
+    <string name="open_the_document_from_main_view">Μπορείτε να ανοίξετε το έγγραφο από την κύρια προβολή στο κάτω μέρος, τον περιηγητή αρχείων ή τον εκκινητή. Υπάρχει επίσης μια επιλογή για την προσθήκη κειμένου που κοινοποιήθηκε στο Markdown Helper.</string>
+    <string name="notebook_is_the_home_of_your_files">Σημειωματάριο είναι ο φάκελος που το Markdown Helper φορτώνει στο πρόγραμμα περιήγησης αρχείων όταν ξεκινά η εφαρμογή. Είναι ο αρχικός φάκελος των αρχείων σας.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">Το QuickNote είναι η ταχύτερη επιλογή για εγγραφή σημειώσεων. Είναι ένα αρχείο σε μορφή Markdown με την προεπιλεγμένη τοποθεσία &gt;Notebook/QuickNote. d&lt;, μπορείτε να ορίσετε ένα προσαρμοσμένο αρχείο στις ρυθμίσεις.</string>
     <string name="todo_is_the_easiest_way_">Διαχειριστείτε τις εργασίες σας με ToDo. Είναι ένα αρχείο σε μορφή todo.txt με την προεπιλεγμένη τοποθεσία &gt;Notebook/todo. xt&lt;, μπορείτε να ορίσετε μία διαδρομή στις ρυθμίσεις.</string>
     <string name="navigationbar_color">Χρώμα μπάρας πλοήγησης</string>
@@ -368,7 +368,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">Κρυπτογράφηση περιεχομένου αρχείου</string>
     <string name="utf8_with_bom">UTF-8 με BOM</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">Αδυναμία κρυπτογράφησης περιεχομένου αρχείου. Το αρχείο δεν αποθηκεύτηκε.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Δεν ήταν δυνατή η αποκρυπτογράφηση περιεχομένου αρχείου. Χρησιμοποιείτε λάθος κωδικό πρόσβασης? Είναι το αρχείο πραγματικά κρυπτογραφημένο με κρυπτογράφηση MarkdownHelpers AES;</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Δεν ήταν δυνατή η αποκρυπτογράφηση περιεχομένου αρχείου. Χρησιμοποιείτε λάθος κωδικό πρόσβασης? Είναι το αρχείο πραγματικά κρυπτογραφημένο με κρυπτογράφηση Markdown Helpers AES;</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">Ο κωδικός πρόσβασης έχει ήδη οριστεί. Ο ορισμός νέου κωδικού πρόσβασης θα αντικαταστήσει τον υπάρχοντα κωδικό πρόσβασης και ενδέχεται να μην μπορείτε να έχετε πρόσβαση σε αρχεία πια σε περίπτωση που ξεχάσετε τον κωδικό πρόσβασης.</string>
     <string name="code_block">Μπλοκ κώδικα</string>
     <string name="add_completion_date">Προσθήκη ημερομηνίας ολοκλήρωσης</string>
@@ -424,7 +424,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="match_all">Ταίριασμα Όλων</string>
     <string name="dynamic_notebook_root_links">Δυναμική αναζήτηση αρχής σημειωματάριου</string>
     <string name="search_dynamically_for_notebook_root">Για να ακολουθήσετε τους συνδέσμους wiki, αναζητήστε δυναμικά το αρχείο notebook.zim για να εντοπίσετε τον αρχικό κατάλογο για το τρέχον σημειωματάριο. Ενεργοποιήστε αυτή την επιλογή αν χρησιμοποιείτε πολλά σημειωματάρια, ή τον κατάλογο σημειωματαρίων που έχει οριστεί στην εφαρμογή δεν αντιστοιχεί στο zim σημειωματάριο σας.</string>
-    <string name="share_into_format_prefix_for_text_shared">Φορμάτ/Πρόθεμα για κείμενο που διαμοιράζεται στο MarkdownHelper. Ακολουθεί τους κανόνες του Android SimpleDateFormat.\n\nΧρησιμοποιήστε το {{text}} για τη θέση του κειμένου. Αν δεν δοθεί, το κείμενο επικολλείται και το φορμάτ χρησιμοποιείται σαν πρόθεμα.</string>
+    <string name="share_into_format_prefix_for_text_shared">Φορμάτ/Πρόθεμα για κείμενο που διαμοιράζεται στο Markdown Helper. Ακολουθεί τους κανόνες του Android SimpleDateFormat.\n\nΧρησιμοποιήστε το {{text}} για τη θέση του κειμένου. Αν δεν δοθεί, το κείμενο επικολλείται και το φορμάτ χρησιμοποιείται σαν πρόθεμα.</string>
     <string name="share_into_format">Κοινή χρήση σε - Μορφή</string>
     <string name="auto_format">Αυτόματη διαμόρφωση</string>
     <string name="insert_snippet">Εισαγωγή αποσπάσματος κώδικα</string>

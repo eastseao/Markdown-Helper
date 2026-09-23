@@ -195,7 +195,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Дефис-минус (-)</string>
     <string name="unordered_list_char_asterisk">Звёздочка (*)</string>
     <string name="unordered_list_char_plus">Плюс (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownHelper может редактировать только локальные, автономно доступные документы и не поддерживает файловые менеджеры, которые не предоставляют полный путь к файлу.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper может редактировать только локальные, автономно доступные документы и не поддерживает файловые менеджеры, которые не предоставляют полный путь к файлу.</string>
     <string name="file_does_not_exist_and_cant_be_created">Файл или папка не существует и не может быть создана</string>
     <string name="permissions">Разрешения</string>
     <string name="permission_paths_revert">Вернуть пути по умолчанию?</string>
@@ -294,8 +294,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">AppData (private)</string>
     <string name="appdata_sdcard">AppData (SD-карта)</string>
     <string name="internal_storage">Внутренняя память</string>
-    <string name="open_the_document_from_main_view">Вы можете открыть документ из главного вида внизу, файлового браузера или лаунчера. Также есть возможность добавить текст, разделенный в MarkdownHelper.</string>
-    <string name="notebook_is_the_home_of_your_files">Блокнот — это папка, которую MarkdownHelper открывает в обозревателе файлов при запуске. Это папка по умолчанию для ваших файлов.</string>
+    <string name="open_the_document_from_main_view">Вы можете открыть документ из главного вида внизу, файлового браузера или лаунчера. Также есть возможность добавить текст, разделенный в Markdown Helper.</string>
+    <string name="notebook_is_the_home_of_your_files">Блокнот — это папка, которую Markdown Helper открывает в обозревателе файлов при запуске. Это папка по умолчанию для ваших файлов.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">QuickNote помогает быстро делать заметки. Это файл в формате Markdown, путь по умолчанию: &gt;Notebook/QuickNote.md&lt;. Вы можете изменить путь в настройках.</string>
     <string name="todo_is_the_easiest_way_">Управляйте задачами с помощью ToDo. Это файл в формате todo.txt, путь по умолчанию: &gt;Notebook/todo.txt&lt;. Вы можете изменить путь в настройках.</string>
     <string name="navigationbar_color">Цвет панели навигации</string>
@@ -317,7 +317,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="soft_break_if_not_fit_to_width_else_enable_horizontal_scrolling">Вставлять мягкие переносы вместо отображения ползунка горизонтальной прокрутки, когда текст не помещается по ширине на экране.</string>
     <string name="recursive_search_in_location">Рекурсивный поиск в %s</string>
     <string name="always_open_with_this_app">Всегда открывать в этом приложении</string>
-    <string name="always_open_files_with_this_app_when_list_contains_file_extension">Если расширение файла есть в списке, всегда будет открывать его в MarkdownHelper. К примеру, если вы хотите редактировать файлы без расширения и веб-файлы, введите \'None, .html, .css, .js\'.</string>
+    <string name="always_open_files_with_this_app_when_list_contains_file_extension">Если расширение файла есть в списке, всегда будет открывать его в Markdown Helper. К примеру, если вы хотите редактировать файлы без расширения и веб-файлы, введите \'None, .html, .css, .js\'.</string>
     <string name="open_file_with">Открыть файл</string>
     <string name="rotate">Поворот</string>
     <string name="template">Шаблон</string>
@@ -384,7 +384,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">Шифровать содержимое файла</string>
     <string name="utf8_with_bom">UTF-8 с BOM</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">Не удалось зашифровать содержимое файла. Файл не был сохранен.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Не удалось расшифровать содержимое файла. Используете ли вы верный пароль? Файл действительно был зашифрован MarkdownHelpers AES?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Не удалось расшифровать содержимое файла. Используете ли вы верный пароль? Файл действительно был зашифрован Markdown Helpers AES?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">Пароль уже установлен. Установка нового пароля перезапишет существующий пароль, и вы больше не сможете получить доступ к файлам в случае, если вы забудете пароль.</string>
     <string name="code_block">Блок кода</string>
     <string name="add_completion_date">Добавить дату завершения</string>
@@ -440,7 +440,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="match_all">Полное совпадение</string>
     <string name="dynamic_notebook_root_links">Динамический поиск корня блокнота</string>
     <string name="search_dynamically_for_notebook_root">Чтобы перейти по вики-ссылкам, необходимо динамически искать файл notebook.zim для определения корневого каталога текущей записной книжки. Установите флажок, если вы используете несколько цим-блокнотов или установленный в приложении каталог блокнота не соответствует вашему блокноту zim.</string>
-    <string name="share_into_format_prefix_for_text_shared">Формат/Префикс для текста, отправленного в MarkdownHelper. Соответствует правилам Android SimpleDateFormat. \n\nИспользуйте переменную \'{{text}}\' (с одинарными кавычками) для размещения отправленного текста. Если не указано, отправленный текст добавляется и формат используется в качестве префикса.</string>
+    <string name="share_into_format_prefix_for_text_shared">Формат/Префикс для текста, отправленного в Markdown Helper. Соответствует правилам Android SimpleDateFormat. \n\nИспользуйте переменную \'{{text}}\' (с одинарными кавычками) для размещения отправленного текста. Если не указано, отправленный текст добавляется и формат используется в качестве префикса.</string>
     <string name="share_into_format">Поделиться - Формат</string>
     <string name="attachment_folder_name">Название папки с вложением</string>
     <string name="attachment_folder_name_desc">Подпапка в текущей папке, где будут храниться вложения. Если оставить пустым, то вложения будут храниться в текущей папке.</string>

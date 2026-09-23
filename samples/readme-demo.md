@@ -1,4 +1,4 @@
-## MarkdownHelper: Markdown Editor - todo.txt - Notes Offline - Simple and lightweight
+## Markdown Helper: Markdown Editor - todo.txt - Notes Offline - Simple and lightweight
 
 📝 Create __notes and manage your to-do list__ using simple markup formats  
 🌲 Work completely offline - whenever, wherever  
@@ -7,7 +7,7 @@
 🖍 `Syntax Highlighting` and format related actions -- quick insert pictures and to-do  
 👀 Convert, preview, and share documents as HTML and PDF  
 🖍 Formats: _Markdown, todo.txt_  & csv, ics, ini, json, toml, txt, vcf, yaml  
-📋 Copy to clipboard: Copy any text, including text shared into MarkdownHelper  
+📋 Copy to clipboard: Copy any text, including text shared into Markdown Helper  
 🎨 Highly customizeable, ~~black~~ dark theme available  
 👌 Privacy focused: No ads or unnecessary permissions
 
@@ -22,5 +22,5 @@
 
 Project page: <https://github.com/eastseao/markdown-helper>
 
-![MarkdownHelper Logo](https://github.com/eastseao/markdown-helper)
+![Markdown Helper Logo](https://github.com/eastseao/markdown-helper)
 

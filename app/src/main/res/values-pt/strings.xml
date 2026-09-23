@@ -199,12 +199,12 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Traço (-)</string>
     <string name="unordered_list_char_asterisk">Asterisco (*)</string>
     <string name="unordered_list_char_plus">Mais (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownHelper só pode editar documentos locais, off-line e não tem suporte a gestor de ficheiros que não disponibilizem o caminho completo do ficheiro.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper só pode editar documentos locais, off-line e não tem suporte a gestor de ficheiros que não disponibilizem o caminho completo do ficheiro.</string>
     <string name="file_does_not_exist_and_cant_be_created">Ficheiro ou directoria não existe e não pode ser criado</string>
     <string name="permissions">Permissões</string>
     <string name="permission_paths_revert">Reverter para os caminhos por definição?</string>
     <string name="permission_not_granted">Permissão não concedida</string>
-    <string name="sync_to_local_folder_notice">Aviso: as aplicações de sincronização podem colocar os ficheiros em pastas personalizadas. Pode abrir os ficheiros alterando a pasta de documentos do MarkdownHelper ou através de um gestor de ficheiros.</string>
+    <string name="sync_to_local_folder_notice">Aviso: as aplicações de sincronização podem colocar os ficheiros em pastas personalizadas. Pode abrir os ficheiros alterando a pasta de documentos do Markdown Helper ou através de um gestor de ficheiros.</string>
     <string name="vertical_alignment">Alinhamento vertical</string>
     <string name="horizontal_alignment">Alinhamento horizontal</string>
     <string name="default_">Padrão</string>
@@ -299,7 +299,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">AppData (privada)</string>
     <string name="appdata_sdcard">AppData (cartão SD)</string>
     <string name="internal_storage">Armazenamento interno</string>
-    <string name="open_the_document_from_main_view">Pode abrir um documento através da vista principal, de um explorador de ficheiros ou do \'launcher\'. Também existe uma opção para anexar texto partilhado ao MarkdownHelper.</string>
+    <string name="open_the_document_from_main_view">Pode abrir um documento através da vista principal, de um explorador de ficheiros ou do \'launcher\'. Também existe uma opção para anexar texto partilhado ao Markdown Helper.</string>
     <string name="notebook_is_the_home_of_your_files">Caderno é a pasta que a aplicação carrega no explorador de ficheiros ao iniciar. É a pasta que contém todos os seus ficheiros.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">QuickNote é a opção mais rápida para criar a sua nota. É um ficheiro com o formato Markdown, sendo colocado em &gt;Caderno/QuickNote.md&lt; mas pode ser definido um caminho personalizado nas definições.</string>
     <string name="todo_is_the_easiest_way_">Pode gerir as suas tarefas em ToDo. É um ficheiro com o formato todo.txt, sendo colocado em &gt;Caderno/todo.txt&lt; mas pode ser definido um caminho personalizado nas definições.</string>
@@ -406,7 +406,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">Cifrar conteúdo do ficheiro</string>
     <string name="utf8_with_bom">UTF-8 com LDM</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">Não foi possível cifrar o ficheiro. Ficheiro não guardado.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Não foi possível decifrar o ficheiro. Utilizou a palavra-passe correta? O ficheiro foi cifrado com a cifra MarkdownHelper AES?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Não foi possível decifrar o ficheiro. Utilizou a palavra-passe correta? O ficheiro foi cifrado com a cifra Markdown Helper AES?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">A palavra-passe já está definida. Se definir uma nova palavra-passe a atual será substituída e, caso a perca, já não será possível aceder ao ficheiro.</string>
     <string name="code_block">Bloco de código</string>
     <string name="add_completion_date">Adicionar data de conclusão</string>
@@ -464,7 +464,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="match_all">Combinar todos</string>
     <string name="dynamic_notebook_root_links">Busca dinâmica pela raiz de notebook</string>
     <string name="search_dynamically_for_notebook_root">Para seguir os links da wiki, procure dinamicamente o arquivo notebook.zim para identificar o diretório raiz do caderno atual. Verifique se você utiliza vários blocos de anotações zím ou o diretório de anotações definido no app não corresponde ao seu caderno zim.</string>
-    <string name="share_into_format_prefix_for_text_shared">Formato/Prefixo para texto partilhado para MarkdownHelper. Se as regras SimpleDateFormat do Android.\n\nUsa o espaço reservado {{text}} para posicionar o texto partilhado. Se não especificado, o texto partilhado é anexado e o formato usado como prefixo.</string>
+    <string name="share_into_format_prefix_for_text_shared">Formato/Prefixo para texto partilhado para Markdown Helper. Se as regras SimpleDateFormat do Android.\n\nUsa o espaço reservado {{text}} para posicionar o texto partilhado. Se não especificado, o texto partilhado é anexado e o formato usado como prefixo.</string>
     <string name="share_into_format">Compartilhar em - Formato</string>
     <string name="attachment_folder_name">Nome da pasta de anexos</string>
     <string name="attachment_folder_name_desc">Subpasta na pasta atual onde os anexos serão guardados. Se deixado em branco, os anexos serão salvos na pasta atual.</string>

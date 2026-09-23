@@ -190,12 +190,12 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Sidekriips (-)</string>
     <string name="unordered_list_char_asterisk">Tärn (*)</string>
     <string name="unordered_list_char_plus">Pluss (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownHelper toimetab ainult kohalike failidega ja selliste failihalduritega mis pakuvad täielikku failiteed.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper toimetab ainult kohalike failidega ja selliste failihalduritega mis pakuvad täielikku failiteed.</string>
     <string name="file_does_not_exist_and_cant_be_created">Faili või kataloogi ei ole või ei saa luua</string>
     <string name="permissions">Load</string>
     <string name="permission_paths_revert">Kas taastada vaikimisi failiteed?</string>
     <string name="permission_not_granted">Luba pole tagatud</string>
-    <string name="sync_to_local_folder_notice">Märge: Sünkijad võivad panna faile oma kaustadesse. Ava neid faile muutes vastavalt MarkdownHelperi märkmete kausta või läbi teise failihalduri.</string>
+    <string name="sync_to_local_folder_notice">Märge: Sünkijad võivad panna faile oma kaustadesse. Ava neid faile muutes vastavalt Markdown Helperi märkmete kausta või läbi teise failihalduri.</string>
     <string name="vertical_alignment">Püstjoondus</string>
     <string name="horizontal_alignment">Rõhtjoondus</string>
     <string name="default_">Vaikimisi</string>
@@ -286,8 +286,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">AppData (isiklik)</string>
     <string name="appdata_sdcard">AppData (SD kaardil)</string>
     <string name="internal_storage">Sisemine salvestusruum</string>
-    <string name="open_the_document_from_main_view">Dokumendi saate avada altpoolt põhivaates, failibrauseris või käivitusprogrammis. Samuti on võimalik MarkdownHelperisse jagatud teksti lisada.</string>
-    <string name="notebook_is_the_home_of_your_files">Märkmik/Notebook on kaust, mille MarkdownHelper rakenduse käivitamisel failihaldurisse laadib. See on teie failide kodukaust.</string>
+    <string name="open_the_document_from_main_view">Dokumendi saate avada altpoolt põhivaates, failibrauseris või käivitusprogrammis. Samuti on võimalik Markdown Helperisse jagatud teksti lisada.</string>
+    <string name="notebook_is_the_home_of_your_files">Märkmik/Notebook on kaust, mille Markdown Helper rakenduse käivitamisel failihaldurisse laadib. See on teie failide kodukaust.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">QuickNote on kiireim võimalus märkmete kirjutamiseks. See on Markdown-vormingus fail, mille vaikeasukoht &gt;Notebook/QuickNote.md&lt;, seadistustes saate kohandada failitee.</string>
     <string name="todo_is_the_easiest_way_">Halda oma ülesandeid TodDo abil. See on faili todo.txt vormingus vaikimisi asukohas &gt;Notebook/todo.txt&lt;, mille failiteed saad seadetes muuta.</string>
     <string name="navigationbar_color">Liikumisriba värv</string>
@@ -375,7 +375,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">Krüpteeri faili sisu</string>
     <string name="utf8_with_bom">UTF-8 alguses BOM</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">Faili sisu ei saanud krüptida. Faili ei salvestatud.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Faili sisu ei saanud dekrüpteerida. Kas kasutasite vale salasõna? Kas fail on tõesti MarkdownHelperi AES-krüptimisega krüptitud?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Faili sisu ei saanud dekrüpteerida. Kas kasutasite vale salasõna? Kas fail on tõesti Markdown Helperi AES-krüptimisega krüptitud?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">Parool on juba määratud. Uue salasõna määramine kirjutab olemasoleva üle ja selle unustamise korral ei pruugi te enam failidele juurde pääseda.</string>
     <string name="code_block">Koodiread</string>
     <string name="add_completion_date">Lisa lõpetamise kuupäev</string>
@@ -431,7 +431,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="match_all">Leia kõik</string>
     <string name="dynamic_notebook_root_links">Märkmiku juure otsimine</string>
     <string name="search_dynamically_for_notebook_root">Vikilinkide järgimiseks otsige dünaamiliselt faili notebook.zim, et tuvastada praeguse märkmiku juurkataloog. Märkige see, kui kasutate mitut zim-märkmikku või rakenduses määratud märkmikukataloog ei vasta teie zim-märkmikule.</string>
-    <string name="share_into_format_prefix_for_text_shared">MarkdownHelperis jagatud teksti vorming/eesliide. Järgib Androidi SimpleDateFormat reegleid.\n\nKasutage jagatud teksti paigutamiseks kohahoidjat {{text}}. Kui pole määratud, lisatakse jagatud tekst ja vormingut kasutatakse prefiksina.</string>
+    <string name="share_into_format_prefix_for_text_shared">Markdown Helperis jagatud teksti vorming/eesliide. Järgib Androidi SimpleDateFormat reegleid.\n\nKasutage jagatud teksti paigutamiseks kohahoidjat {{text}}. Kui pole määratud, lisatakse jagatud tekst ja vormingut kasutatakse prefiksina.</string>
     <string name="share_into_format">Jaga valitud vormingus</string>
     <string name="attachment_folder_name">Manuste kausta nimi</string>
     <string name="attachment_folder_name_desc">Praeguse kausta alamkaust manuste hoiustamiseks. Kui jääb tühjaks, manused pannakse praegusesse kausta.</string>
