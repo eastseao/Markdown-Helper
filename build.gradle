@@ -47,7 +47,7 @@ allprojects {
     }
 
     tasks.matching { task -> task.name.matches('(.*generate.*Resources)|(.*map.*SourceSetPaths)|(.*process.*NavigationResources)') }.all {
-        task -> task.dependsOn copyRepoFiles
+        task -> task.dependsOn copyRepoFiles, copyReadmeDefault, copyReadmeChinese
     }
 
     tasks.matching { it instanceof Test }.all { // Enable unit test output, html+xml output
@@ -64,11 +64,36 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
-final String[] ROOT_TO_RAW_COPYFILES = ["README.md", "CHANGELOG.md", "CONTRIBUTORS.md", "LICENSE.txt", "LICENSE.md", "LICENSE"]
+final String[] ROOT_TO_RAW_COPYFILES = ["CHANGELOG.md", "CONTRIBUTORS.md", "LICENSE.txt", "LICENSE.md", "LICENSE"]
 task copyRepoFiles(type: Copy) {
     from rootProject.files(ROOT_TO_RAW_COPYFILES)
     into "app/src/main/res/raw"
     rename { String fileName -> fileName.replace(fileName, fileName.toLowerCase()) }
+}
+
+// The README is bilingual: README.md holds the Chinese text and is the default one
+// GitHub renders on the repository home page, README.en.md holds the English text.
+// Inside the app the two are kept apart by an Android resource qualifier, so that
+// `R.raw.readme` (the in-app project page) follows the device language with no code
+// change:
+//   res/raw/readme.md         <- README.en.md   (fallback for every locale)
+//   res/raw-zh-rCN/readme.md  <- README.md      (selected automatically on zh-rCN)
+//
+// NOTE: each task keeps its `into` as narrow as possible on purpose. Pointing a task
+// at `app/src/main/res` itself makes Gradle treat that whole resource tree as the
+// task's output, and the build then fails the implicit-dependency validation because
+// `extractDeepLinks*` reads `res/navigation` (an unrelated subdirectory).
+//   > Task ':app:extractDeepLinksFlavorDefaultDebug' uses this output of task
+//   > ':copyReadmeFiles' without declaring an explicit or implicit dependency.
+task copyReadmeDefault(type: Copy) {
+    from rootProject.file("README.en.md")
+    into "app/src/main/res/raw"
+    rename { "readme.md" }
+}
+task copyReadmeChinese(type: Copy) {
+    from rootProject.file("README.md")
+    into "app/src/main/res/raw-zh-rCN"
+    rename { "readme.md" }
 }
 
 
