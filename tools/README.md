@@ -15,7 +15,7 @@
 
 | 脚本 | 作用 |
 |---|---|
-| `icon/gen_icons.py` | 从设计稿 JPEG 生成全套图标：自适应 bg/fg/mono 三层 + 5 档 legacy 位图 + `ic_launcher-web.png` + 4 个变体图标，并输出参考线预览图 |
+| `icon/gen_icons.py` | 从设计稿 JPEG 生成全套**图标资源**：自适应 bg/fg/mono 三层 + 5 档 legacy 位图 + 4 个变体图标（共用同一组图层），以及参考线预览图；`ic_launcher-web.png`（商店用图）**只产出一张**，变体的 `-web.png` 不在生成范围内 |
 | `icon/install_icons.py` | 把 `stage/` 的产物装进工程，并删除被取代的 vector drawable |
 | `icon/verify_install.py` | 逐文件 md5 比对 `stage/` 与工程，确认安装无遗漏、无残留旧资源 |
 | `icon/mask_radius.py` | ★ 量各图层**墨迹到画布中心的最大距离**，对照 36dp / 33dp 判定是否会被遮罩裁切 |
@@ -26,6 +26,7 @@
 | `regroup_more_page.py` | 把「更多」页 84 项设置重排进 5 个可折叠分组（迁移脚本，已在输出上加了幂等守卫） |
 | `rename_app.py` | 品牌改名（应用名 / 散文 / 注释），范围限定在用户可见文案 |
 | `verify_apk.py` | ★ 发布前验收：产物身份、逐密度图标、安全区、残留扫描、清单检查、元素零丢失 |
+| `check_readme.py` | ★ README / CHANGELOG 排版检查：同一份文本要同时被 GitHub GFM 和 App 内 flexmark 解析，`--fix` 可自动合并中文软换行 |
 | `push.py` | 推送辅助（运行时从 `gh auth token` 取凭据，不落盘、不硬编码） |
 
 ## 图标工作流
@@ -81,6 +82,31 @@ python tools/icon/mask_preview.py
 
 `regroup_more_page.py` 在写盘前断言：所有原 `android:key` 出现且仅出现一次；
 `verify_apk.py` 再断言打包后的 XML 元素数与源码一致（117/117）。
+
+### 4. README 有两个消费者，排版必须同时成立
+
+`README.md` / `README.en.md` **不只是 GitHub 首页**，`build.gradle` 还会把它们复制进 APK 资源：
+
+```
+copyReadmeDefault : README.en.md -> res/raw/readme.md        （所有语言的兜底）
+copyReadmeChinese : README.md    -> res/raw-zh-rCN/readme.md （zh-rCN 自动选中）
+```
+
+也就是同一个文件要被 **两套解析器**（GitHub 的 GFM、App 内的 flexmark-java）渲染，两边都成立才算改对。
+已知的两个分歧点：
+
+- **中文软换行会渲染成多余空格。** CommonMark 把软换行输出成换行符，浏览器折叠为**一个空格**。
+  英文里这是期望行为，中文里是错的：在「，」或「。」之后折行会凭空多出半个空格。
+  → 中文散文段落不要在句中折行；`check_readme.py --fix` 可自动合并。
+- **表格单元格不能含真实换行。** 一行必须是一个完整表格行，需要换行只能写 `<br>`。
+
+另外首部的居中 `<div align="center">` 是**裸 HTML 块**：CommonMark 的 HTML 块到第一个空行为止，
+所以块内不能出现空行，否则居中对后续内容失效。
+
+```bash
+python tools/check_readme.py          # 退出码非 0 表示有排版问题
+python tools/check_readme.py --fix    # 只修 R1（合并软换行）
+```
 
 ## 发布
 
