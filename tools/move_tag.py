@@ -104,6 +104,18 @@ def main() -> None:
     env = dict(os.environ)
     env["GIT_TERMINAL_PROMPT"] = "0"
 
+    # Move the LOCAL ref first. `git push <ref>` pushes whatever the local ref
+    # currently points at, so skipping this makes the push a no-op that still
+    # exits 0 and still reports "Everything up-to-date" - the remote tag stays
+    # put and the only signal is the verification at the end of this script.
+    rc, out, err = run([GIT, "update-ref", f"refs/tags/{args.tag}", new_sha])
+    if rc != 0:
+        raise SystemExit(f"could not move the local tag: {err}")
+    rc, local_now, _ = run([GIT, "rev-parse", f"refs/tags/{args.tag}"])
+    print(f"\nlocal tag moved to : {local_now[:8]}")
+    if local_now != new_sha:
+        raise SystemExit("local tag did not move - refusing to push")
+
     # Force-UPDATE the ref. Never delete it: deleting would detach the GitHub
     # release, and the release is the thing we are trying to keep coherent.
     rc, out, err = run([
@@ -120,7 +132,13 @@ def main() -> None:
     rc, after, _ = run(["git", "ls-remote", "--tags", "origin", args.tag])
     after = after.split()[0] if after else "(none)"
     print(f"remote tag now     : {after[:8]}")
-    print("CONSISTENT" if after == new_sha else "MISMATCH - check manually")
+    if after == new_sha:
+        print("CONSISTENT")
+    else:
+        # Non-zero exit on purpose: a silent failure here leaves the release
+        # shipping a binary and a source tree from different commits.
+        print(f"MISMATCH - remote is {after[:8]}, expected {new_sha[:8]}")
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":
