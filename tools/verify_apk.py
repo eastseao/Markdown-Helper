@@ -26,6 +26,7 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
 import zipfile
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -34,7 +35,18 @@ sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 REPO = pathlib.Path(r"I:\mar\markdown-helper")
 BUILD_OUT = REPO / "app" / "build" / "outputs" / "apk" / "flavorDefault" / "debug"
 RELEASE_ASSET = REPO / "MarkdownHelper-v1.0.0.apk"
-EXT = pathlib.Path(r"I:\mar\markdown-helper-tools\apkcheck-verify")
+# A fresh extraction directory per run, deliberately.
+#
+# This used to be a fixed path that was wiped with shutil.rmtree() before each
+# run. That breaks under the environment's bulk-delete guard: wiping an
+# extraction of ~2,400 files exceeds the per-turn delete threshold, the guard
+# refuses, and the script dies at STEP 1c having checked nothing (exit 1 after
+# 3 seconds, with no CHECK output at all - which reads like a script bug rather
+# than a policy refusal). Using mkdtemp() means there is nothing to delete, and
+# it also removes the chance of a stale file from an earlier APK leaking into a
+# later result. The directories are left behind on purpose: deleting them would
+# hit the same guard.
+EXT = pathlib.Path(tempfile.mkdtemp(prefix="apkcheck-verify-"))
 
 BUILD_TOOLS = pathlib.Path(r"I:\应用开发\Android\Sdk\build-tools\35.0.0")
 
@@ -148,9 +160,7 @@ claim("no 'Markdown Helper' label left", not any("Markdown Helper" in l for l in
 
 # --------------------------------------------------------------- extraction
 hr("STEP 1c - unpack for content checks")
-if EXT.exists():
-    shutil.rmtree(EXT, ignore_errors=True)
-EXT.mkdir(parents=True)
+EXT.mkdir(parents=True, exist_ok=True)
 with zipfile.ZipFile(RELEASE_ASSET) as z:
     z.extractall(EXT)
 print(f"  unpacked {len(names)} entries -> {EXT}")
@@ -229,7 +239,15 @@ claim("safe-zone audit actually ran", n_geom >= 4,
 
 # --------------------------------------------------------- residue / brand
 hr("STEP 1f - brand residue")
-res_hits, blob_hits = [], []
+# The packaged documentation legitimately names the old brand: the upgrade note
+# has to give the real folder name (`Documents/markor`) or it is useless, and
+# README.md / README.en.md are copied into res/raw*/readme.md by build.gradle.
+# So the invariant is NOT "the token appears nowhere" - it is "the token appears
+# ONLY inside the packaged docs". A hit in a drawable, layout, string resource
+# or dex is still a hard failure, which is what this step is really guarding.
+DOC_ENTRIES = {"res/raw/readme.md", "res/raw-zh-rCN/readme.md",
+               "res/raw/changelog.md", "res/raw/contributors.md"}
+res_hits, blob_hits, doc_hits = [], [], []
 for p in EXT.rglob("*"):
     if not p.is_file():
         continue
@@ -239,15 +257,25 @@ for p in EXT.rglob("*"):
         continue
     rel = str(p.relative_to(EXT)).replace("\\", "/")
     if b"markor" in low:
-        (res_hits if rel.startswith(("res/", "assets/")) else blob_hits).append(
-            (rel, low.count(b"markor")))
+        c = low.count(b"markor")
+        if rel in DOC_ENTRIES:
+            doc_hits.append((rel, c))
+        elif rel.startswith(("res/", "assets/")):
+            res_hits.append((rel, c))
+        else:
+            blob_hits.append((rel, c))
 print(f"  'markor' inside res/ or assets/  = {len(res_hits)}")
 for rel, c in res_hits[:15]:
     print(f"      {c:3d}x {rel}")
 print(f"  'markor' in other blobs (dex/arsc/…) = {len(blob_hits)}")
 for rel, c in sorted(blob_hits, key=lambda t: -t[1])[:10]:
     print(f"      {c:3d}x {rel}")
+print(f"  'markor' in the packaged docs (allowed, what the upgrade note needs) = "
+      f"{sum(c for _, c in doc_hits)}")
+for rel, c in doc_hits:
+    print(f"      {c:3d}x {rel}")
 claim("no 'markor' in any compiled resource or asset", not res_hits)
+claim("'markor' confined to the packaged docs", not blob_hits)
 print(f"  raw byte count in the APK = {data.lower().count(b'markor')}")
 
 arsc = (EXT / "resources.arsc")
@@ -317,6 +345,38 @@ if (EXT / "resources.arsc").exists():
              or f"pref_key__more_group_{i}".encode("utf-16-le") in blob]
     print(f"  group key strings found in resources.arsc = {found}")
     claim("all 5 group key strings compiled", len(found) == 5, f"{len(found)}/5")
+
+# ------------------------------------------------------- packaged docs sync
+# README.md / README.en.md / CHANGELOG.md are copied into the APK by
+# copyReadmeChinese / copyReadmeDefault / copyRepoFiles, so editing them changes
+# the app's in-app project page - and a rebuild is mandatory afterwards. The
+# packaged bytes must equal the repo sources, otherwise a release ships
+# documentation that no longer matches the repository it points at. That is
+# exactly the trap: the release page looks edited, the app still shows the old
+# text, and nothing fails.
+hr("STEP 1i - packaged docs match the repo sources")
+DOCS = [
+    # packaged entry,               repo source,     own label,  other-language file
+    ("res/raw-zh-rCN/readme.md", "README.md", "简体中文", "README.en.md"),
+    ("res/raw/readme.md", "README.en.md", "English", "README.md"),
+    ("res/raw/changelog.md", "CHANGELOG.md", None, None),
+]
+for entry, src, own_label, other_file in DOCS:
+    packed, origin = EXT / entry, REPO / src
+    if not origin.exists():
+        claim(f"{src} exists in the repo", False, "missing source file")
+        continue
+    if not packed.exists():
+        claim(f"{entry} is packaged", False, "missing from the APK")
+        continue
+    a, b = packed.read_bytes(), origin.read_bytes()
+    claim(f"{entry} == {src}", a == b,
+          f"packaged {len(a):,} B vs source {len(b):,} B")
+    if own_label:
+        txt = a.decode("utf-8", "replace")
+        claim(f"{entry} language switcher is intact",
+              other_file in txt and own_label in txt,
+              f"expects {own_label!r} + a link to {other_file}")
 
 # ------------------------------------------------------------------ summary
 hr("SUMMARY")

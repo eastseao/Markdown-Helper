@@ -25,8 +25,10 @@
 | `icon/thresh_probe.py` | 提高 alpha 阈值重测最大半径，用来区分**实心墨迹**与**抗锯齿边缘** |
 | `regroup_more_page.py` | 把「更多」页 84 项设置重排进 5 个可折叠分组（迁移脚本，已在输出上加了幂等守卫） |
 | `rename_app.py` | 品牌改名（应用名 / 散文 / 注释），范围限定在用户可见文案 |
-| `verify_apk.py` | ★ 发布前验收：产物身份、逐密度图标、安全区、残留扫描、清单检查、元素零丢失 |
+| `verify_apk.py` | ★ 发布前验收（42 项）：产物身份、zip 对齐、图标逐密度、安全区、品牌残留、清单检查、元素零丢失、**包内文档与仓库源文件同源** |
+| `apk_identity.py` | 打印最新 APK 的「文件名 / 字节数 / mtime / sha256」，可选 `--expect-bytes` / `--expect-sha256` 断言。验收的第 0 步：先证明你验的是刚构建出来的产物 |
 | `check_readme.py` | ★ README / CHANGELOG 排版检查：同一份文本要同时被 GitHub GFM 和 App 内 flexmark 解析，`--fix` 可自动合并中文软换行 |
+| `move_tag.py` | ★ 把已发布的标签重指到更新的提交。**当二进制被 `--clobber` 覆盖而标签留在原处时，Release 的自动源码归档就和它的安装包对不上了**，只有移动标签才能让归档重新生成 |
 | `push.py` | 推送辅助（运行时从 `gh auth token` 取凭据，不落盘、不硬编码） |
 
 ## 图标工作流
@@ -107,6 +109,29 @@ copyReadmeChinese : README.md    -> res/raw-zh-rCN/readme.md （zh-rCN 自动选
 python tools/check_readme.py          # 退出码非 0 表示有排版问题
 python tools/check_readme.py --fix    # 只修 R1（合并软换行）
 ```
+
+### 5. 脚本不要批量删除目录（环境护栏会拦下整个进程）
+
+本机有安全护栏：**单轮删除文件数超过约 50 个会被拒绝**，并且拒绝发生在脚本进程内部，
+表现为脚本**中途死掉**，而不是某个检查失败。典型症状：
+
+```
+[safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {"count":2429,"threshold":50,...}
+```
+紧接着脚本退出、没有任何 CHECK 输出——很容易被误读成「脚本有 bug」或「代码写错了」。
+实测：`verify_apk.py` 原来用固定解包目录 + `shutil.rmtree()` 清空，删到 2400+ 个文件时整轮中止，
+前 8 个 STEP 只输出到一半。
+
+**正确做法是让脚本根本不需要删除**：`verify_apk.py` 现在每次 `tempfile.mkdtemp()` 解包到全新目录。
+顺带还消除了「上一次解包残留文件污染本次结果」的隐患。不要试图绕过护栏。
+
+### 6. 覆盖二进制资产后，标签必须跟着移动
+
+GitHub Releases 里的 **Source code (zip/tar.gz) 是在线生成的，不是资产**，无法替换，
+只能通过移动标签来刷新。所以 `gh release upload --clobber` 换掉 APK 之后，
+如果标签还留在原提交，这个 Release 就变成「新安装包 + 旧源码」——而且不会报任何错。
+`tools/move_tag.py` 就是干这个的，它强制要求目标是 `origin/main` 的祖先，并且只 **force-update**
+引用、绝不删除标签（删掉会让 Release 与标签脱钩）。
 
 ## 发布
 
