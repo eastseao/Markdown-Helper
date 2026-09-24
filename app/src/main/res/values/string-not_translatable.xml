@@ -9,7 +9,7 @@ You should have received a copy of the CC0 legalcode along with this
 work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
 -->
 <resources>
-    <string name="app_name_real" translatable="false">Markdown Helper</string>
+    <string name="app_name_real" translatable="false">MarkdownH</string>
     <string name="app_name" translatable="false">@string/app_name_real</string>
     <string name="app_license_name" translatable="false">Apache 2.0</string>
     <string name="app_community_url" translatable="false">https://github.com/eastseao/Markdown-Helper/discussions</string>
@@ -49,7 +49,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
 
     <string name="katex_latex" translatable="false">KaTex (LaTex)\n$ a^2 + b^2 = c^2 $</string>
     <string name="app_theme_system" translatable="false">system</string>
-    <string name="editor_basic_color_scheme_markdownhelper" translatable="false">Markdown Helper</string>
+    <string name="editor_basic_color_scheme_markdownhelper" translatable="false">MarkdownH</string>
     <string name="editor_basic_color_scheme_black_or_white" translatable="false">Black or White</string>
     <string name="editor_basic_color_scheme_amoled" translatable="false">AMOLED</string>
     <string name="editor_basic_color_scheme_solarized" translatable="false">Solarized</string>
@@ -174,6 +174,16 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="pref_key__more_info__join_community" translatable="false">pref_key__more_info__join_community</string>
 
     <string name="pref_key__more_info__app" translatable="false">pref_key__more_info__app</string>
+    <!-- Keys of the five collapsible groups on the "More" page. They are ordinary
+         Preference keys (referenced from prefactions__more_information.xml as
+         @string/...), so like every other pref_key they must exist here or aapt2
+         fails the resource link with "resource string/... not found". -->
+    <string name="pref_key__more_group_general" translatable="false">pref_key__more_group_general</string>
+    <string name="pref_key__more_group_files" translatable="false">pref_key__more_group_files</string>
+    <string name="pref_key__more_group_editor" translatable="false">pref_key__more_group_editor</string>
+    <string name="pref_key__more_group_view" translatable="false">pref_key__more_group_view</string>
+    <string name="pref_key__more_group_formats" translatable="false">pref_key__more_group_formats</string>
+
     <string name="pref_key__more_info__project_community" translatable="false">pref_key__more_info__project_community</string>
     <string name="pref_key__more_info__project_team" translatable="false">pref_key__more_info__project_team</string>
     <string name="pref_key__more_info__contributors_public_info" translatable="false">pref_key__more_info__contributors_public_info</string>

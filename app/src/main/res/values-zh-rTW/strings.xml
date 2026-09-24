@@ -131,6 +131,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="back_to_previous_folder" needed="false">回到上個資料夾</string>
     <string name="app_settings" needed="false">程式設定</string>
     <string name="editor_settings" needed="false">編輯器設定</string>
+    <string name="settings_group_files" needed="false">檔案與儲存</string>
+    <string name="settings_group_view_export" needed="false">閱讀與匯出</string>
     <string name="remember_last_folder_location_on_startup" needed="false">啟動時記住最近使用的資料夾位置</string>
     <string name="number_of_files_witharg" needed="false">檔案數：%d</string>
     <string name="app_wide">全域</string>
@@ -195,12 +197,12 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">連接號 (-)</string>
     <string name="unordered_list_char_asterisk">星號 (*)</string>
     <string name="unordered_list_char_plus">加號 (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper 僅能編輯本機或離線的可用文件，也不支援未提供完整路徑的檔案管理器。</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownH 僅能編輯本機或離線的可用文件，也不支援未提供完整路徑的檔案管理器。</string>
     <string name="file_does_not_exist_and_cant_be_created">文件或路徑不存在且無法創建</string>
     <string name="permissions">權限</string>
     <string name="permission_paths_revert">確認恢復為默認路徑嗎？</string>
     <string name="permission_not_granted">未授予權限</string>
-    <string name="sync_to_local_folder_notice">注意：如果使用某個同步程式，該文件將位於已知或自訂的資料夾，您可以變更Markdown Helper的文件目錄或以其他檔案管理程式開啟。</string>
+    <string name="sync_to_local_folder_notice">注意：如果使用某個同步程式，該文件將位於已知或自訂的資料夾，您可以變更MarkdownH的文件目錄或以其他檔案管理程式開啟。</string>
     <string name="vertical_alignment">垂直偏移</string>
     <string name="horizontal_alignment">水平偏移</string>
     <string name="default_">系統預設</string>
@@ -293,8 +295,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">應用程式資料（私人）</string>
     <string name="appdata_sdcard">應用程式資料 (SD卡)</string>
     <string name="internal_storage">內部儲存空間</string>
-    <string name="open_the_document_from_main_view">您可以從主檢視區的底部，檔案瀏覽器或啟動器中開啟文件，您還可以將文字分享至 Markdown Helper。</string>
-    <string name="notebook_is_the_home_of_your_files">「筆記本」是 Markdown Helper 啟動時在檔案管理器中的載入的資料夾，也是您檔案的主資料夾。</string>
+    <string name="open_the_document_from_main_view">您可以從主檢視區的底部，檔案瀏覽器或啟動器中開啟文件，您還可以將文字分享至 MarkdownH。</string>
+    <string name="notebook_is_the_home_of_your_files">「筆記本」是 MarkdownH 啟動時在檔案管理器中的載入的資料夾，也是您檔案的主資料夾。</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">「QuickNote」是快速紀錄筆記的最佳選擇，以 Markdown 格式存放在預設位置 &gt;Notebook/QuickNote.md&lt;，您可以在設定裡自訂檔案路徑。</string>
     <string name="todo_is_the_easiest_way_">「ToDo」可以用來管理您的工作任務，以 todo.txt 格式存放在預設位置 &gt;Notebook/todo.txt&lt;，您可以在設定裡自訂檔案路徑。</string>
     <string name="navigationbar_color">導覽列顏色</string>
@@ -382,7 +384,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">加密檔案內容</string>
     <string name="utf8_with_bom">帶 BOM 的 UTF-8</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">無法加密檔案內容。檔案未儲存。</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">無法解密檔案內容。你的密碼錯了嗎？這個檔案真的是用Markdown Helpers的AES加密過的嗎？</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">無法解密檔案內容。你的密碼錯了嗎？這個檔案真的是用MarkdownH的AES加密過的嗎？</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">已設好密碼。設定新密碼將會覆蓋既存的密碼，如果你忘了新密碼，可能不能再讀取檔案了。</string>
     <string name="code_block">程式碼區塊</string>
     <string name="add_completion_date">加入完成日期</string>
@@ -438,7 +440,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="match_all">匹配全部</string>
     <string name="dynamic_notebook_root_links">動態搜尋筆記本根目錄</string>
     <string name="search_dynamically_for_notebook_root">若要追蹤維基連結，動態搜尋 notebook.zim 檔案以識別目前筆記本的根目錄。如果你使用多個 zim 筆記本或應用程式中設定的筆記本目錄與你的 zim 筆記本不對應時，請勾選此項目。</string>
-    <string name="share_into_format_prefix_for_text_shared">分享至 Markdown Helper 的文字的格式／前綴。遵循 Android 的 SimpleDateFormat 規則。\n\n使用佔位符 {{text}} 來定位分享的文字。如果未指定，則會附加分享文字並將格式用作前綴。</string>
+    <string name="share_into_format_prefix_for_text_shared">分享至 MarkdownH 的文字的格式／前綴。遵循 Android 的 SimpleDateFormat 規則。\n\n使用佔位符 {{text}} 來定位分享的文字。如果未指定，則會附加分享文字並將格式用作前綴。</string>
     <string name="share_into_format">分享到 - 格式</string>
     <string name="attachment_folder_name">附件資料夾名稱</string>
     <string name="attachment_folder_name_desc">附件將儲存在目前資料夾下的子資料夾中。如果留空，附件將會儲存在目前資料夾中。</string>

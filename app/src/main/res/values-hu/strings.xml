@@ -183,8 +183,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Kötőjel (-)</string>
     <string name="unordered_list_char_asterisk">Csillag (*)</string>
     <string name="unordered_list_char_plus">Plusz (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper csak helyi offline dokumentumok szerkesztésére képes, és nem támogat fájlkezelőket, amelyek nem adják meg a teljes elérési utat.</string>
-    <string name="sync_to_local_folder_notice">Megjegyzés: A szinkronizációs appok egyedi mappába tehetik a fájlokat. Nyisd meg őket a Markdown Helper mappájának megváltoztatásával, vagy egy fájlkezelőn keresztül.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownH csak helyi offline dokumentumok szerkesztésére képes, és nem támogat fájlkezelőket, amelyek nem adják meg a teljes elérési utat.</string>
+    <string name="sync_to_local_folder_notice">Megjegyzés: A szinkronizációs appok egyedi mappába tehetik a fájlokat. Nyisd meg őket a MarkdownH mappájának megváltoztatásával, vagy egy fájlkezelőn keresztül.</string>
     <string name="vertical_alignment">Függőleges igazítás</string>
     <string name="horizontal_alignment">Vízszintes igazítás</string>
     <string name="default_">Alapértelmezett</string>
@@ -270,7 +270,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">AppData (privát)</string>
     <string name="appdata_sdcard">AppData (SD kártya)</string>
     <string name="internal_storage">Belső tárhely</string>
-    <string name="notebook_is_the_home_of_your_files">A jegyzetfüzet az a mappa, amit Markdown Helper megnyit induláskor. A szövegfájlok helye.</string>
+    <string name="notebook_is_the_home_of_your_files">A jegyzetfüzet az a mappa, amit MarkdownH megnyit induláskor. A szövegfájlok helye.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">A QuickNote az ötletek gyors leírására szolgál Markdown formátumban. Alapértelmezetten a &gt;Jegyzetfüzet/QuickNote.md&lt; helyen található, de helye beállításokban testreszabható.</string>
     <string name="todo_is_the_easiest_way_">A ToDo-val kezelheted a feladataidat \"todo.txt\" formátumban. Alapértelmezetten a &gt;Jegyzetfüzet/todo.txt&lt; helyen található, de helye beállításokban testreszabható.</string>
     <string name="navigationbar_color">Navigációs sáv színe</string>
@@ -351,7 +351,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="no_password_set_cannot_encrypt_decrypt">Nincs jelszó, nem lehet titkosítani.\nJelszó megadásához menj a Beállítások -&gt; Általános -&gt; Jelszó pontra.</string>
     <string name="encrypt_file_content">Fájlok titkosítása</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">A fájl titkosítása nem sikerült. A mentés nem történt meg.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Fájl dekódolása nem sikerült. Rossz jelszót használtál? Biztos, hogy a fájl titkosítva van a Markdown Helper AES titkosításával?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Fájl dekódolása nem sikerült. Rossz jelszót használtál? Biztos, hogy a fájl titkosítva van a MarkdownH AES titkosításával?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">Már van jelszó beállítva. Új jelszó megadása az előzőt felülírja, és nem biztos hogy hozzá fogsz majd férni az eddig mentett fájlokhoz, ha elfelejted a jelszót.</string>
     <string name="code_block">Kódtömb</string>
     <string name="add_completion_date">Teljesítés dátuma</string>

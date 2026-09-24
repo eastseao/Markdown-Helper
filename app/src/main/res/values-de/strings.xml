@@ -197,12 +197,12 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Strich (-)</string>
     <string name="unordered_list_char_asterisk">Stern (*)</string>
     <string name="unordered_list_char_plus">Plus (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper kann nur lokale, offline verfügbare Dokumente bearbeiten und unterstützt keine Datei-Manager, die nicht den vollständigen Dateipfad angeben.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownH kann nur lokale, offline verfügbare Dokumente bearbeiten und unterstützt keine Datei-Manager, die nicht den vollständigen Dateipfad angeben.</string>
     <string name="file_does_not_exist_and_cant_be_created">Datei oder Verzeichnis existiert nicht und kann nicht erstellt werden</string>
     <string name="permissions">Berechtigungen</string>
     <string name="permission_paths_revert">Dateipfade auf den Standard zurücksetzen?</string>
     <string name="permission_not_granted">Berechtigung wurde nicht erteilt</string>
-    <string name="sync_to_local_folder_notice">Hinweis: Wenn du eine Synchronisations-App verwendest, befinden sich die Dateien möglicherweise in einem bekannten oder benutzerdefinierten Ordner. Du kannst die Dateien öffnen, indem du Markdown Helpers Dokumenten-Ordner änderst, oder durch Nutzung eines anderen Datei-Managers.</string>
+    <string name="sync_to_local_folder_notice">Hinweis: Wenn du eine Synchronisations-App verwendest, befinden sich die Dateien möglicherweise in einem bekannten oder benutzerdefinierten Ordner. Du kannst die Dateien öffnen, indem du MarkdownH Dokumenten-Ordner änderst, oder durch Nutzung eines anderen Datei-Managers.</string>
     <string name="vertical_alignment">Vertikale Anordnung</string>
     <string name="horizontal_alignment">Horizontale Anordnung</string>
     <string name="default_">Standard</string>
@@ -296,8 +296,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">AppData (privat)</string>
     <string name="appdata_sdcard">AppData (SD-Karte)</string>
     <string name="internal_storage">Interner Speicher</string>
-    <string name="open_the_document_from_main_view">Du kannst das Dokument unten in der Hauptansicht, dem Datei-Browser oder aus dem Launcher öffnen. Text, der zu Markdown Helper geteilt wurde, kann angefügt werden.</string>
-    <string name="notebook_is_the_home_of_your_files">Notizbuch ist der Ordner, den Markdown Helper beim Starten der App im Dateibrowser lädt. Es ist der Home-Ordner Ihrer Dateien.</string>
+    <string name="open_the_document_from_main_view">Du kannst das Dokument unten in der Hauptansicht, dem Datei-Browser oder aus dem Launcher öffnen. Text, der zu MarkdownH geteilt wurde, kann angefügt werden.</string>
+    <string name="notebook_is_the_home_of_your_files">Notizbuch ist der Ordner, den MarkdownH beim Starten der App im Dateibrowser lädt. Es ist der Home-Ordner Ihrer Dateien.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">QuickNote ist die schnellste Option, um Notizen zu erstellen. Es ist eine Datei im Markdown-Format mit dem Standardpfad &gt;Notizbuch/QuickNote.md&lt;, du kannst den Pfad in den Einstellungen anpassen.</string>
     <string name="todo_is_the_easiest_way_">Manage deine Aufgaben mit ToDo. Es ist eine Datei im todo.txt-Format mit dem Standardpfad &gt;Notizbuch/todo.txt&lt;, du kannst den Pfad in den Einstellungen anpassen.</string>
     <string name="navigationbar_color">Farbe der Navigationsleiste</string>
@@ -386,7 +386,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">Dateiinhalt verschlüsseln</string>
     <string name="utf8_with_bom">UTF-8 mit BOM</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">Dateiinhalt konnte nicht verschlüsselt werden. Die Datei wurde nicht gespeichert.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Konnte Dateiinhalte nicht entschlüsseln. Hast du ein falsches Passwort verwendet? Ist die Datei wirklich mit Markdown Helpers AES-Verschlüsselung verschlüsselt?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Konnte Dateiinhalte nicht entschlüsseln. Hast du ein falsches Passwort verwendet? Ist die Datei wirklich mit MarkdownH AES-Verschlüsselung verschlüsselt?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">Passwort bereits gesetzt. Ein neues Passwort überschreibt das bestehende Passwort und du kannst möglicherweise nicht mehr auf Dateien zugreifen, falls du das Passwort vergessen.</string>
     <string name="code_block">Code-Block</string>
     <string name="add_completion_date">Fertigstellungsdatum hinzufügen</string>
@@ -442,7 +442,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="match_all">Vollständige Übereinstimmung</string>
     <string name="dynamic_notebook_root_links">Dynamische Suche nach Notizbuch-Wurzelverzeichnis</string>
     <string name="search_dynamically_for_notebook_root">Zum Folgen von Wiki-Links dynamisch nach der notebook.zim-Datei suchen, um das Wurzelverzeichnis für das aktuelle Notebook zu bestimmen. Aktivieren Sie diese Option, falls Sie mehrere Zim-Notebooks verwenden oder das in der App festgelegte Notebook-Verzeichnis nicht Ihrem Zim-Notebook entspricht.</string>
-    <string name="share_into_format_prefix_for_text_shared">Formatierung/Präfix für in Markdown Helper geteilten Text. Befolgt Androids SimpleDateFormat-Regeln.\n\nVerwenden Sie den Platzhalter {{text}}, um den geteilten Text zu platzieren. Falls nicht angegeben, wird der geteilte Text angehängt und die Formatierung wie ein Präfix verwendet.</string>
+    <string name="share_into_format_prefix_for_text_shared">Formatierung/Präfix für in MarkdownH geteilten Text. Befolgt Androids SimpleDateFormat-Regeln.\n\nVerwenden Sie den Platzhalter {{text}}, um den geteilten Text zu platzieren. Falls nicht angegeben, wird der geteilte Text angehängt und die Formatierung wie ein Präfix verwendet.</string>
     <string name="share_into_format">Teilen in - Format</string>
     <string name="attachment_folder_name">Ordnername für Anhänge</string>
     <string name="attachment_folder_name_desc">Unterordner des aktuellen Ordners, in dem Anhänge gespeichert werden. Wenn leer gelassen, werden Anhänge im aktuellen Ordner gespeichert.</string>

@@ -195,10 +195,10 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">מקף (-)</string>
     <string name="unordered_list_char_asterisk">כוכבית (*)</string>
     <string name="unordered_list_char_plus">פלוס (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper יכול לערוך קבצים מקומיים, המנותקים מהרשת בלבד ואינו תומך בסיירי קבצים שאינם מביאים נתיב מלא אל הקובץ.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownH יכול לערוך קבצים מקומיים, המנותקים מהרשת בלבד ואינו תומך בסיירי קבצים שאינם מביאים נתיב מלא אל הקובץ.</string>
     <string name="permissions">הרשאות</string>
     <string name="permission_not_granted">לא ניתנה הרשאה</string>
-    <string name="sync_to_local_folder_notice">הערה: אפליקציות סנכרון יכולות לשים קבצים בתיקיות שרירותיות, לפתוח אותם באמצעות שינוי תיקיית המסמכים של Markdown Helper בהתאם, או במנהל קבצים אחר.</string>
+    <string name="sync_to_local_folder_notice">הערה: אפליקציות סנכרון יכולות לשים קבצים בתיקיות שרירותיות, לפתוח אותם באמצעות שינוי תיקיית המסמכים של MarkdownH בהתאם, או במנהל קבצים אחר.</string>
     <string name="vertical_alignment">יישור אנכי</string>
     <string name="horizontal_alignment">יישור אופקי</string>
     <string name="default_">ברירת מחדל</string>
@@ -290,8 +290,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">AppData (פרטי)</string>
     <string name="appdata_sdcard">AppData (כרטיס זכרון)</string>
     <string name="internal_storage">אחסון פנימי</string>
-    <string name="open_the_document_from_main_view">ניתן לפתוח את המסמך באמצעות הסרגל בתחתית המסך הראשי, מעיין הקבצים או התפריט. יש גם אפשרות להוסיף טקסט אשר שותף לתוך Markdown Helper.</string>
-    <string name="notebook_is_the_home_of_your_files">תיקיית המחברת הינו מה שMarkdown Helper טוען לתוך מעיין הקבצים בפתיחה האפלקיציה. זו תיקיית הבית עבור הקבצים שלכם.</string>
+    <string name="open_the_document_from_main_view">ניתן לפתוח את המסמך באמצעות הסרגל בתחתית המסך הראשי, מעיין הקבצים או התפריט. יש גם אפשרות להוסיף טקסט אשר שותף לתוך MarkdownH.</string>
+    <string name="notebook_is_the_home_of_your_files">תיקיית המחברת הינו מה שMarkdownH טוען לתוך מעיין הקבצים בפתיחה האפלקיציה. זו תיקיית הבית עבור הקבצים שלכם.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">הפתק המהיר הינו הדרך המהירה ביותר לרשום דברים. זהו קובץ בפורמאט Markdown עם מיקום ברירת המחדל &lt;Notebook/QuickNote.md&gt;, הנכם יכולים להגדיר מיקום שונה בהגדרות.</string>
     <string name="todo_is_the_easiest_way_">נהלו את משימותיכם באמצעות רשימת מטלות. זהו קובץ בפורמאט todo.txt עם מיקום ברירת המחדל &lt;Notebook/todo.txt&gt;, הנכם יכולים להגדיר מיקום שונה בהגדרות.</string>
     <string name="navigationbar_color">צבע שורת ניווט</string>
@@ -382,7 +382,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">הצפן קובץ</string>
     <string name="utf8_with_bom">UTF-8 עם BOM</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">כשל בהצפנה קובץ. הקובץ לא נשמר.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">כשל בפיענוח קובץ. האם הזנתם סיסמא שגויה? האם הקובץ הוצפן באמצעות AES של Markdown Helper?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">כשל בפיענוח קובץ. האם הזנתם סיסמא שגויה? האם הקובץ הוצפן באמצעות AES של MarkdownH?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">סיסמא כבר מוגדרת. הגדרת סיסמא חדשה תדרוס את הקיימת והנכם עלולים לאבד גישה לקבצים במידה ולא תזכרו את הסיסמא.</string>
     <string name="code_block">תא קוד</string>
     <string name="add_completion_date">הוספת תאריך סיום</string>

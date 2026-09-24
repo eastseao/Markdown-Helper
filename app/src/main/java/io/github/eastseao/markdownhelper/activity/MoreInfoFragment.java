@@ -85,7 +85,7 @@ public class MoreInfoFragment extends GsPreferenceFragmentBase<AppSettings> {
         Preference pref;
         // Basic app info
         if ((pref = findPreference(R.string.pref_key__more_info__app)) != null && pref.getSummary() == null) {
-            pref.setIcon(R.drawable.ic_launcher);
+            pref.setIcon(R.drawable.ic_settings_black_24dp);
             pref.setSummary(String.format(locale, "%s\nVersion v%s (%d)", _cu.getAppIdFlavorSpecific(context), _cu.getAppVersionName(context), _cu.bcint(context, "VERSION_CODE", 0)));
         }
         // The export settings are shown inline here (the "settings" sub page was flattened into

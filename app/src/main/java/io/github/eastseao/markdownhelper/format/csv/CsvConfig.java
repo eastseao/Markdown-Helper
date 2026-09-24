@@ -11,7 +11,7 @@ package io.github.eastseao.markdownhelper.format.csv;
  * Configuration for CSV file format.
  * <p>
  * Implementation detail for csv support. This file should be not have dependencies to
- * android and to Markdown Helper-Architecture.
+ * android and to MarkdownH-Architecture.
  */
 public class CsvConfig {
     public static final CsvConfig DEFAULT = new CsvConfig(',', '"');

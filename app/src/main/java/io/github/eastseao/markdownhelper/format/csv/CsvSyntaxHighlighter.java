@@ -19,7 +19,7 @@ import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * Part of Markdown Helper-Architecture implementing SyntaxHighlighting for csv.
+ * Part of MarkdownH-Architecture implementing SyntaxHighlighting for csv.
  */
 public class CsvSyntaxHighlighter extends MarkdownSyntaxHighlighter {
     // standard green, yellow, cyan is not readable on white background

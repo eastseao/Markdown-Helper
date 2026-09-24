@@ -197,12 +197,12 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Pomišljaj (-)</string>
     <string name="unordered_list_char_asterisk">Zvezdica (*)</string>
     <string name="unordered_list_char_plus">Plus (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper lahko ureja le lokalnoo, dokumente dostopne brez povezave in ne podpira upraviteljev datotek, ki ne ponujajo polnih datotečnih naslovov.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownH lahko ureja le lokalnoo, dokumente dostopne brez povezave in ne podpira upraviteljev datotek, ki ne ponujajo polnih datotečnih naslovov.</string>
     <string name="file_does_not_exist_and_cant_be_created">Datoteka ali imenik ne obstaja in ne more biti ustvarjen(a)</string>
     <string name="permissions">Dovoljenja</string>
     <string name="permission_paths_revert">Povrni na privzete datotečne naslove?</string>
     <string name="permission_not_granted">Neodobrena dovoljenja</string>
-    <string name="sync_to_local_folder_notice">Opomba: Usklajevalna orodja lahko datoteke shranijo v druge mape. Odprete jih tako da ustrezno spremenite mapo Markdown Helperjevega dokumenta, ali v drugem upravitelju datotek.</string>
+    <string name="sync_to_local_folder_notice">Opomba: Usklajevalna orodja lahko datoteke shranijo v druge mape. Odprete jih tako da ustrezno spremenite mapo MarkdownHjevega dokumenta, ali v drugem upravitelju datotek.</string>
     <string name="vertical_alignment">Navpična poravnava</string>
     <string name="horizontal_alignment">Vodoravna poravnava</string>
     <string name="default_">Privzeto</string>
@@ -296,8 +296,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">AppData (zasebni)</string>
     <string name="appdata_sdcard">AppData (kartica SD)</string>
     <string name="internal_storage">Notranji pomnilnik</string>
-    <string name="open_the_document_from_main_view">Dokument lahko odprete v glavnem pogledu na dnu, v datotečnem brskalniku ali zaganjalniku. Obstaja tudi možnost dodajanja besedila, ki je bilo deljeno v Markdown Helper.</string>
-    <string name="notebook_is_the_home_of_your_files">Beležka je mapa, ki jo Markdown Helper ob svojem zagonu naloži v brskalnik datotek. To je domača mapa vaših datotek.</string>
+    <string name="open_the_document_from_main_view">Dokument lahko odprete v glavnem pogledu na dnu, v datotečnem brskalniku ali zaganjalniku. Obstaja tudi možnost dodajanja besedila, ki je bilo deljeno v MarkdownH.</string>
+    <string name="notebook_is_the_home_of_your_files">Beležka je mapa, ki jo MarkdownH ob svojem zagonu naloži v brskalnik datotek. To je domača mapa vaših datotek.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">Hitra beležka je najhitrejša možnost zapisovanja zapiskov. To je datoteka v obliki Markdown s privzetim mestom &gt;Notebook/QuickNote.md&lt;, lahko pa tudi nastavite svoje mesto v nastavitvah.</string>
     <string name="todo_is_the_easiest_way_">Upravljajte s svojimi opravili z Opravili. To je datoteka v obliki todo.txt s privzetim mestom &gt;Notebook/todo.txt&lt;, lahko pa tudi nastavite svoje mesto v nastavitvah.</string>
     <string name="navigationbar_color">Barva krmilne vrstice</string>
@@ -386,7 +386,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">Zašifriraj vsebino datoteke</string>
     <string name="utf8_with_bom">UTF-8 z BOM</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">Ni bilo mogoče zašifrirati vsebine datoteke Datoteka ni bila shranjena.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Ni bilo mogoče odšifrirati vsebine datoteke. Ste uporabili napačno geslo? Je datoteka res zašifrirana s Markdown Helperjevim šifriranjem AES?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Ni bilo mogoče odšifrirati vsebine datoteke. Ste uporabili napačno geslo? Je datoteka res zašifrirana s MarkdownHjevim šifriranjem AES?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">Geslo je že nastavljeno. Nastavitev novega gesla bo prepisala že obstoječe geslo in v primeru, da pozabite geslo, morda ne boste več mogli dostopati do datotek.</string>
     <string name="code_block">Odek kode</string>
     <string name="add_completion_date">Dodaj datum dokončanja</string>
@@ -443,7 +443,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="match_all">Ujemi vse</string>
     <string name="dynamic_notebook_root_links">Dinamično iskanje korenske mape beležke</string>
     <string name="search_dynamically_for_notebook_root">Za sledenje viki povezavam se dinamično iščite datoteko notebook.zim, da določite korenski imenik trenutne beležke. Omogočite to, če uporabljate več zvezkov ZIM ali če imenik, nastavljen v orodju, ne ustreza vaši beležki ZIM.</string>
-    <string name="share_into_format_prefix_for_text_shared">Oblika/predpona za besedilo, deljeno v Markdown Helper. Upošteva Androidova pravila.\n\nZa umestitev deljenega besedila uporabite oznako {{text}}. Če ni navedena, se besedilo doda na konec, oblika pa se uporabi kot predpona.</string>
+    <string name="share_into_format_prefix_for_text_shared">Oblika/predpona za besedilo, deljeno v MarkdownH. Upošteva Androidova pravila.\n\nZa umestitev deljenega besedila uporabite oznako {{text}}. Če ni navedena, se besedilo doda na konec, oblika pa se uporabi kot predpona.</string>
     <string name="share_into_format">Deljenje v - oblika</string>
     <string name="attachment_folder_name">Ime mape priloge</string>
     <string name="attachment_folder_name_desc">Podmapa trenutne mape, kamor se shranjuje priloge. Če pustite prazno, se priloge shranjujejo v trenutno mapo.</string>

@@ -197,12 +197,12 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">대시 (-)</string>
     <string name="unordered_list_char_asterisk">별표 (*)</string>
     <string name="unordered_list_char_plus">더하기 부호 (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper는 클라우드가 아닌 기기 내부의 오프라인 파일만 편집하며, 파일 경로 전체를 온전하게 제공하지 않는 파일 관리자는 지원하지 않습니다.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownH는 클라우드가 아닌 기기 내부의 오프라인 파일만 편집하며, 파일 경로 전체를 온전하게 제공하지 않는 파일 관리자는 지원하지 않습니다.</string>
     <string name="file_does_not_exist_and_cant_be_created">파일 및 경로가 존재하지 않으며 생성할 수도 없습니다</string>
     <string name="permissions">권한</string>
     <string name="permission_paths_revert">기본 경로로 되돌릴까요?</string>
     <string name="permission_not_granted">권한이 부여되지 않았습니다</string>
-    <string name="sync_to_local_folder_notice">참고사항: 동기화 앱들은 파일을 자체적인 임의의 폴더에 저장할 때가 있습니다. 이런 파일을 열고자 할 때는 Markdown Helper의 문서 폴더를 이에 맞게 변경해서 설정하거나 다른 파일 관리자를 사용하세요.</string>
+    <string name="sync_to_local_folder_notice">참고사항: 동기화 앱들은 파일을 자체적인 임의의 폴더에 저장할 때가 있습니다. 이런 파일을 열고자 할 때는 MarkdownH의 문서 폴더를 이에 맞게 변경해서 설정하거나 다른 파일 관리자를 사용하세요.</string>
     <string name="vertical_alignment">세로 정렬</string>
     <string name="horizontal_alignment">가로 정렬</string>
     <string name="default_">기본값</string>
@@ -296,8 +296,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">AppData (개인)</string>
     <string name="appdata_sdcard">AppData (SD 카드)</string>
     <string name="internal_storage">내부 저장소</string>
-    <string name="open_the_document_from_main_view">기본 보기 모드의 하단, 파일 탐색기, 또는 런처에서 문서를 열 수 있습니다. Markdown Helper에 공유된 텍스트를 추가할 수 있는 옵션도 있습니다.</string>
-    <string name="notebook_is_the_home_of_your_files">\'노트북\'은 앱이 시작될 때 Markdown Helper가 파일 탐색기에서 불러오는 폴더입니다. 노트북은 파일과 문서의 보금자리(최상위) 폴더입니다.</string>
+    <string name="open_the_document_from_main_view">기본 보기 모드의 하단, 파일 탐색기, 또는 런처에서 문서를 열 수 있습니다. MarkdownH에 공유된 텍스트를 추가할 수 있는 옵션도 있습니다.</string>
+    <string name="notebook_is_the_home_of_your_files">\'노트북\'은 앱이 시작될 때 MarkdownH가 파일 탐색기에서 불러오는 폴더입니다. 노트북은 파일과 문서의 보금자리(최상위) 폴더입니다.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">\'퀵노트\'는 노트를 작성할 수 있는 가장 빠른 옵션입니다. 퀵노트는 마크다운 형식의 파일이며 &gt;Notebook/QuickNote.md&lt;가 기본 위치입니다. 설정에서 이 기본 위치를 임의로 변경할 수 있습니다.</string>
     <string name="todo_is_the_easiest_way_">\'할 일\'을 활용해 일정을 관리해보세요. 할 일은 todo.txt 형식의 파일이며 &gt;Notebook/todo.txt&lt;가 기본 위치입니다. 설정에서 이 기본 위치를 임의로 변경할 수 있습니다.</string>
     <string name="navigationbar_color">탐색 버튼 색상</string>
@@ -313,7 +313,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="app_start_folder">앱 시작 폴더</string>
     <string name="tab_width">탭 간격</string>
     <string name="amount_of_space_for_tab">탭을 표시할 글자의 간격을 지정</string>
-    <string name="selected_file_may_be_a_textfile_want_to_open_in_editor">해당 파일은 평문 파일일 가능성이 있습니다. Markdown Helper 편집기에서 열까요, 아니면 다른 앱에서 열까요?\n\n이진(binary) 파일은 가급적 Markdown Helper로 열지 마세요. 확실하지 않다면 다른 앱에서 여는 것이 좋습니다.</string>
+    <string name="selected_file_may_be_a_textfile_want_to_open_in_editor">해당 파일은 평문 파일일 가능성이 있습니다. MarkdownH 편집기에서 열까요, 아니면 다른 앱에서 열까요?\n\n이진(binary) 파일은 가급적 MarkdownH로 열지 마세요. 확실하지 않다면 다른 앱에서 여는 것이 좋습니다.</string>
     <string name="list_in_recent_files">최근 파일 목록</string>
     <string name="reload">새로고침</string>
     <string name="soft_break_if_not_fit_to_width_else_enable_horizontal_scrolling">텍스트가 화면 너비를 초과할 경우 자동으로 줄을 바꿉니다. 이 기능을 사용하지 않을 경우 가로 스크롤바를 표시합니다.</string>
@@ -386,7 +386,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">파일 콘텐츠 암호화</string>
     <string name="utf8_with_bom">UTF-8 with BOM</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">파일 콘텐츠를 암호화할 수 없습니다. 파일이 저장되지 않았습니다.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">파일 콘텐츠를 복호화할 수 없습니다. 비밀번호를 잘못 입력했는지, 파일을 정말 Markdown Helpers AES 암호화로 암호화한 것인지 확인해주세요.</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">파일 콘텐츠를 복호화할 수 없습니다. 비밀번호를 잘못 입력했는지, 파일을 정말 MarkdownH AES 암호화로 암호화한 것인지 확인해주세요.</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">비밀번호가 이미 설정되어 있습니다. 새 비밀번호를 설정하면 기존 비밀번호를 덮어쓰게 되며, 비밀번호를 잊어버리면 더 이상 파일에 접근하지 못하게 될 수 있습니다.</string>
     <string name="code_block">코드 블록</string>
     <string name="add_completion_date">완료일 추가</string>
@@ -442,7 +442,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="match_all">모두 일치</string>
     <string name="dynamic_notebook_root_links">노트북 루트를 동적 탐색</string>
     <string name="search_dynamically_for_notebook_root">위키 링크를 따라가려면 notebook.zim 파일을 동적 탐색하여 현재 노트북의 루트 경로를 확인해야 합니다. 여러 개의 zim 노트북을 사용하고 있거나 현재 설정된 노트북 경로가 실제 zim 노트북과 맞지 않는 경우 이 설정을 켜세요.</string>
-    <string name="share_into_format_prefix_for_text_shared">공유 기능을 통해 Markdown Helper로 가져온 텍스트의 형식/접두어를 지정합니다. Android의 SimpleDateFormat 규칙을 따릅니다.\n\n{{text}} 자리 표시자를 이용하여 공유받은 텍스트의 위치를 지정합니다. 자리 표시자로 지정하지 않으면 공유받은 텍스트가 뒤에 붙으며 형식이 접두어로 쓰입니다.</string>
+    <string name="share_into_format_prefix_for_text_shared">공유 기능을 통해 MarkdownH로 가져온 텍스트의 형식/접두어를 지정합니다. Android의 SimpleDateFormat 규칙을 따릅니다.\n\n{{text}} 자리 표시자를 이용하여 공유받은 텍스트의 위치를 지정합니다. 자리 표시자로 지정하지 않으면 공유받은 텍스트가 뒤에 붙으며 형식이 접두어로 쓰입니다.</string>
     <string name="share_into_format">공유받은 텍스트의 형식</string>
     <string name="attachment_folder_name">첨부 폴더 이름</string>
     <string name="attachment_folder_name_desc">첨부 파일을 저장할 하위 폴더 이름입니다. 비워두면 현재 폴더에 저장합니다.</string>

@@ -195,12 +195,12 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Tratigheddu (-)</string>
     <string name="unordered_list_char_asterisk">Asteriscu (*)</string>
     <string name="unordered_list_char_plus">Prus (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper podet editare petzi documentos locales e disponìbiles chene sa connessione a ìnternet e non suportat gestore de documentos chi non frunint s\'àndala intrea pro sos documentos.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownH podet editare petzi documentos locales e disponìbiles chene sa connessione a ìnternet e non suportat gestore de documentos chi non frunint s\'àndala intrea pro sos documentos.</string>
     <string name="file_does_not_exist_and_cant_be_created">Su documentu o sa cartella no esistit e non si podet creare</string>
     <string name="permissions">Permissos</string>
     <string name="permission_paths_revert">Torrare a sas àndalas predefinidas?</string>
     <string name="permission_not_granted">Permissu non cuntzessu</string>
-    <string name="sync_to_local_folder_notice">Ammenta·ti: sas aplicatziones de sincronizatzione diant pòdere sarvare sos documentos in cartellas personalizadas. Aberi·los mudende sa cartella de sos documentos de Markdown Helper, o impreende un\'àteru gestore de documentos.</string>
+    <string name="sync_to_local_folder_notice">Ammenta·ti: sas aplicatziones de sincronizatzione diant pòdere sarvare sos documentos in cartellas personalizadas. Aberi·los mudende sa cartella de sos documentos de MarkdownH, o impreende un\'àteru gestore de documentos.</string>
     <string name="vertical_alignment">Alliniamentu verticale</string>
     <string name="horizontal_alignment">Alliniamentu orizontale</string>
     <string name="default_">Predefinidu</string>
@@ -294,8 +294,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">Datos de s\'aplicatzione (privadu)</string>
     <string name="appdata_sdcard">Datos de s\'aplicatzione (ischeda SD)</string>
     <string name="internal_storage">Memòria interna</string>
-    <string name="open_the_document_from_main_view">Podes abèrrere su documentu dae sa vista printzipale in bassu, dae s\'esploradore de documentos o dae s\'allughidore. B\'at fintzas un\'optzione pro annànghere testu cumpartzidu in Markdown Helper.</string>
-    <string name="notebook_is_the_home_of_your_files">\"Notas\" est sa cartella chi Markdown Helper carrigat in s\'esploradore de documentos cando s\'aplicatzione benit alluta. Est sa cartella de sos documentos tuos.</string>
+    <string name="open_the_document_from_main_view">Podes abèrrere su documentu dae sa vista printzipale in bassu, dae s\'esploradore de documentos o dae s\'allughidore. B\'at fintzas un\'optzione pro annànghere testu cumpartzidu in MarkdownH.</string>
+    <string name="notebook_is_the_home_of_your_files">\"Notas\" est sa cartella chi MarkdownH carrigat in s\'esploradore de documentos cando s\'aplicatzione benit alluta. Est sa cartella de sos documentos tuos.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">QuickNote est s\'optzione prus lestra pro iscrìere notas. Est unu documentu in formadu Markdown, chi s\'agatat in &gt;Notebook/QuickNote.md&lt;. Podes impostare un\'àndala personalizada pro su documentu in sas impostatziones.</string>
     <string name="todo_is_the_easiest_way_">Amministra sas fainas tuas cun ToDo. Est unu documentu in formadu todo.txt chi s\'agatat in &gt;Notebook/todo.txt&lt;. Podes impostare un\'àndala personalizada pro su documentu in sas impostatziones.</string>
     <string name="navigationbar_color">Colore de sa barra de navigatzione</string>
@@ -384,7 +384,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">Tzifra su cuntenutu de su documentu</string>
     <string name="utf8_with_bom">UTF-8 cun BOM</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">Tzifradura de su documentu fallida. Su documentu no est istadu sarvadu.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Detzifradura de su cuntenutu de su documentu fallida. As impreadu una crae isballiada? Su documentu est tzifradu cun sa critografia AES de Markdown Helper a beru?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Detzifradura de su cuntenutu de su documentu fallida. As impreadu una crae isballiada? Su documentu est tzifradu cun sa critografia AES de MarkdownH a beru?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">Crae giai impostada. Impostende una crae noa as a subraiscrìere sa crae chi b\'est e dias pòdere no èssere prus in gradu de atzèdere a sos documentos, s\'in casu mai as a ismentigare sa crae.</string>
     <string name="code_block">Blocu de còdighe</string>
     <string name="add_completion_date">Inserta una data de cumpridura</string>
@@ -440,7 +440,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="match_all">Currispondet totu</string>
     <string name="dynamic_notebook_root_links">Chirca dinàmica de sa raighina de sas notas</string>
     <string name="search_dynamically_for_notebook_root">Pro sighire sos ligàmenes wiki chirca in manera dinàmica su documentu notebook.zim pro identificare sa cartella de raighina pro sas notas atuales. Marca·lu si impreas prus blocos de notas zim o si sa cartella de su blocu de notas impostada in s\'aplicatzione non currispondet a su blocu de notas zim tuo.</string>
-    <string name="share_into_format_prefix_for_text_shared">Formadu/Prefissu pro su testu cumpartzidu in Markdown Helper. Sighit sas règulas SimpleDateFormat de Android.\n\nImprea su sinnapostu {{text}} pro pònnere in logu su testu cumpartzidu. Si no est dislindadu su testu cumpartzidu benit postu in fundu e su formadu s\'impreat comente prefissu.</string>
+    <string name="share_into_format_prefix_for_text_shared">Formadu/Prefissu pro su testu cumpartzidu in MarkdownH. Sighit sas règulas SimpleDateFormat de Android.\n\nImprea su sinnapostu {{text}} pro pònnere in logu su testu cumpartzidu. Si no est dislindadu su testu cumpartzidu benit postu in fundu e su formadu s\'impreat comente prefissu.</string>
     <string name="share_into_format">Cumpartzi in - Formadu</string>
     <string name="attachment_folder_name">Nùmene de sa cartella de sos alligados</string>
     <string name="attachment_folder_name_desc">Suta-cartella suta de sa cartella atuale in ue s\'anta a sarvare sos alligados. Si abarrat bòidu, sos alligados s\'ant a sarvare in sa cartella atuale.</string>

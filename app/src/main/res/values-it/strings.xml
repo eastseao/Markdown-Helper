@@ -195,12 +195,12 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Trattino (-)</string>
     <string name="unordered_list_char_asterisk">Asterisco (*)</string>
     <string name="unordered_list_char_plus">Più (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper può modificare solamente documenti disponibili in locale oppure offline, e non supporta gestori dei file che non forniscono il percorso completo del file.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownH può modificare solamente documenti disponibili in locale oppure offline, e non supporta gestori dei file che non forniscono il percorso completo del file.</string>
     <string name="file_does_not_exist_and_cant_be_created">Il file o la directory non esistono e non possono essere creati</string>
     <string name="permissions">Permessi</string>
     <string name="permission_paths_revert">Tornare ai percorsi di default?</string>
     <string name="permission_not_granted">Autorizzazione non concessa</string>
-    <string name="sync_to_local_folder_notice">Nota: le app di sincronizzazione possono inserire file in cartelle personalizzate. Puoi aprirli modificando la cartella dei documenti di Markdown Helper, o usando un altro file manager.</string>
+    <string name="sync_to_local_folder_notice">Nota: le app di sincronizzazione possono inserire file in cartelle personalizzate. Puoi aprirli modificando la cartella dei documenti di MarkdownH, o usando un altro file manager.</string>
     <string name="vertical_alignment">Allineamento verticale</string>
     <string name="horizontal_alignment">Allineamento orizzontale</string>
     <string name="default_">Predefinito</string>
@@ -296,8 +296,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">AppData (privato)</string>
     <string name="appdata_sdcard">AppData (scheda SD)</string>
     <string name="internal_storage">Memoria interna</string>
-    <string name="open_the_document_from_main_view">Puoi aprire il documento dalla vista principale in basso, dal browser dei file o dal launcher. C\'è anche un\'opzione per aggiungere testo condiviso in Markdown Helper.</string>
-    <string name="notebook_is_the_home_of_your_files">Notebook è la cartella che Markdown Helper carica nel browser dei file quando l\'app è lanciata. È la cartella home per i tuoi file.</string>
+    <string name="open_the_document_from_main_view">Puoi aprire il documento dalla vista principale in basso, dal browser dei file o dal launcher. C\'è anche un\'opzione per aggiungere testo condiviso in MarkdownH.</string>
+    <string name="notebook_is_the_home_of_your_files">Notebook è la cartella che MarkdownH carica nel browser dei file quando l\'app è lanciata. È la cartella home per i tuoi file.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">QuickNote è l\'opzione più veloce per scrivere note. È un file in formato Markdown nella posizione predefinita &gt;Notebook/QuickNote.md&lt;, è possibile impostare un percorso file personalizzato nelle impostazioni.</string>
     <string name="todo_is_the_easiest_way_">Gestisci le tue attività con ToDo. È un file in formato todo.txt nella posizione predefinita &gt;Notebook/todo.txt&lt;, è possibile impostare un file personalizzato nelle impostazioni.</string>
     <string name="navigationbar_color">Colore barra di navigazione</string>
@@ -386,7 +386,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">Crittografa il contenuto del file</string>
     <string name="utf8_with_bom">UTF-8 con BOM</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">Impossibile crittografare il contenuto del file. Il file non è stato salvato.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Impossibile decifrare il contenuto del file. Hai usato una password sbagliata? Il file è veramente crittografato con la crittografia AES di Markdown Helper?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Impossibile decifrare il contenuto del file. Hai usato una password sbagliata? Il file è veramente crittografato con la crittografia AES di MarkdownH?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">Password già impostata. Impostare una nuova password sovrascriverà la password esistente e potresti non essere più in grado di accedere ai file nel caso in cui dimentichi la password.</string>
     <string name="code_block">Blocco di codice</string>
     <string name="add_completion_date">Aggiungi data di completamento</string>
@@ -442,7 +442,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="match_all">Trova tutti</string>
     <string name="dynamic_notebook_root_links">Ricerca dinamica della radice del notebook</string>
     <string name="search_dynamically_for_notebook_root">Per seguire i collegamenti wiki, cerca dinamicamente il file notebook.zim per identificare la directory radice per il notebook corrente. Spunta questa opzione se usi più notebook zim o la directory del notebook impostata nell\'app non corrisponde al tuo notebook zim.</string>
-    <string name="share_into_format_prefix_for_text_shared">Formato/Prefisso per il testo condiviso in Markdown Helper. Segue le regole SimpleDateFormat di Android.\n\nUsa il segnaposto {{text}} per posizionare il testo condiviso. Se non specificato, il testo condiviso è aggiunto alla fine e il formato usato come prefisso.</string>
+    <string name="share_into_format_prefix_for_text_shared">Formato/Prefisso per il testo condiviso in MarkdownH. Segue le regole SimpleDateFormat di Android.\n\nUsa il segnaposto {{text}} per posizionare il testo condiviso. Se non specificato, il testo condiviso è aggiunto alla fine e il formato usato come prefisso.</string>
     <string name="share_into_format">Condividi in - Formato</string>
     <string name="attachment_folder_name">Cartella degli allegati</string>
     <string name="attachment_folder_name_desc">Sottocartella in cui verranno salvati gli allegati. Se lasciato in bianco, gli allegati verranno salvati nella cartella attuale.</string>

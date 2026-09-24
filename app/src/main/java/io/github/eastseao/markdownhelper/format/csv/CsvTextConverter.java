@@ -31,7 +31,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Part of Markdown Helper-Architecture implementing Preview/Export for csv.
+ * Part of MarkdownH-Architecture implementing Preview/Export for csv.
  * <p>
  * Converts csv to md and let
  * {@link  TextConverterBase#convertMarkup(String, Context, boolean, boolean, File)}

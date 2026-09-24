@@ -196,12 +196,12 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Streck (-)</string>
     <string name="unordered_list_char_asterisk">Asterisk (*)</string>
     <string name="unordered_list_char_plus">Plus (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper kan bara redigera lokala dokument som är tillgängliga offlinie och stöder inte filhanterare som inte ger den fullständiga sökvägen.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownH kan bara redigera lokala dokument som är tillgängliga offlinie och stöder inte filhanterare som inte ger den fullständiga sökvägen.</string>
     <string name="file_does_not_exist_and_cant_be_created">Fil eller mapp finns inte eller kan inte skapas</string>
     <string name="permissions">Rättigheter</string>
     <string name="permission_paths_revert">Återställ till defaultsökvägar?</string>
     <string name="permission_not_granted">Behörighet inte beviljad</string>
-    <string name="sync_to_local_folder_notice">OBS: Synkroniseringsappar kan möjligen placera filer i egna mappar. Öppna dem genom att ändra Markdown Helpers dokumentmapp eller i en annan filhanterare.</string>
+    <string name="sync_to_local_folder_notice">OBS: Synkroniseringsappar kan möjligen placera filer i egna mappar. Öppna dem genom att ändra MarkdownH dokumentmapp eller i en annan filhanterare.</string>
     <string name="vertical_alignment">Vertikal justering</string>
     <string name="horizontal_alignment">Horisontell justering</string>
     <string name="default_">Förvald</string>
@@ -292,8 +292,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">AppData (privat)</string>
     <string name="appdata_sdcard">AppData (SD kort)</string>
     <string name="internal_storage">Intern lagring</string>
-    <string name="open_the_document_from_main_view">Du kan öppna dokumentet från huvudvyns nederkant, filhanteraren eller din programkörare. Det är möjligt att lägga till text delad till Markdown Helper.</string>
-    <string name="notebook_is_the_home_of_your_files">Anteckningsboken är katalogen Markdown Helper hämtar filhanteraren när programmet startas. Det är dina filers hemkatalaog.</string>
+    <string name="open_the_document_from_main_view">Du kan öppna dokumentet från huvudvyns nederkant, filhanteraren eller din programkörare. Det är möjligt att lägga till text delad till MarkdownH.</string>
+    <string name="notebook_is_the_home_of_your_files">Anteckningsboken är katalogen MarkdownH hämtar filhanteraren när programmet startas. Det är dina filers hemkatalaog.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">SnabbAnteckning är det snabbaste sättet att göra anteckningar. Det är en fil i Markdown-format som ligger i &gt;Notebook/QuickNote.md&lt;, du kan ändra vart filen sparas i inställningarna.</string>
     <string name="todo_is_the_easiest_way_">Hantera dina uppgifter med ToDo. Det är en fil i todo.txt format med standardplats &gt;Notebook/todo.txt&lt; Du kan ställa in en anpassad sökväg i inställningarna.</string>
     <string name="navigationbar_color">Färg på navigeringsfältet</string>
@@ -389,7 +389,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">Kryptera filens innehåll</string>
     <string name="utf8_with_bom">UTF-8 med BOM</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">Kunde inte kryptera filens innehåll. Filen sparades inte.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Kunde inte dekryptera filens innehåll. Har du använt ett fel lösenord? Är filen verkligen krypterad med Markdown Helpers AES-kryptering?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Kunde inte dekryptera filens innehåll. Har du använt ett fel lösenord? Är filen verkligen krypterad med MarkdownH AES-kryptering?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">Lösenord har redan angetts. Ett nytt lösenord kommer att skriva över det befintliga lösenordet och du kanske inte kommer åt filerna längre om du glömmer lösenordet.</string>
     <string name="code_block">Kodblock</string>
     <string name="add_completion_date">Lägg till slutdatum</string>
@@ -446,7 +446,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="match_all">Matcha alla</string>
     <string name="dynamic_notebook_root_links">Dynamisk sökning efter anteckningsbok rot</string>
     <string name="search_dynamically_for_notebook_root">För att följa wiki-länkar, dynamiskt söka efter filen notebook.zim för att identifiera rotkatalogen för den aktuella anteckningsboken. Kontrollera detta om du använder flera anteckningsböcker för zim eller den anteckningsbok som anges i appen inte motsvarar din anteckningsbok för zim.</string>
-    <string name="share_into_format_prefix_for_text_shared">Format/prefix för text delad i Markdown Helper. Följer Androids regler för SimpleDateFormat.\n\nAnvänd {{text}} för att placera din text. Om taggen in är angiven kommer texten att användas som prefix i slutet.</string>
+    <string name="share_into_format_prefix_for_text_shared">Format/prefix för text delad i MarkdownH. Följer Androids regler för SimpleDateFormat.\n\nAnvänd {{text}} för att placera din text. Om taggen in är angiven kommer texten att användas som prefix i slutet.</string>
     <string name="share_into_format">Dela till - Format</string>
     <string name="attachment_folder_name">Namn på katalog för bilagor</string>
     <string name="attachment_folder_name_desc">Underkataloger under nuvarande katalog där bilagor sparas. Om oangiven, kommer bilagor sparas i nuvarande katalog.</string>

@@ -195,12 +195,12 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Тире (-)</string>
     <string name="unordered_list_char_asterisk">Звездичка (*)</string>
     <string name="unordered_list_char_plus">Плюс (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper може да редактира само локални, офлайн документи и не поддържа файлови мениджъри, които не предоставят пълния път до файла.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownH може да редактира само локални, офлайн документи и не поддържа файлови мениджъри, които не предоставят пълния път до файла.</string>
     <string name="file_does_not_exist_and_cant_be_created">Файлът или директорията не съществуват и не могат да бъдат създадени</string>
     <string name="permissions">Разрешения</string>
     <string name="permission_paths_revert">Да се ​​върнат ли към пътищата по подразбиране?</string>
     <string name="permission_not_granted">Разрешение не е предоставено</string>
-    <string name="sync_to_local_folder_notice">Забележка: Приложенията за синхронизиране могат да поставят файлове в персонализирани папки. Отворете ги, като промените съответно папката с документи на Markdown Helper или в друг файлов мениджър.</string>
+    <string name="sync_to_local_folder_notice">Забележка: Приложенията за синхронизиране могат да поставят файлове в персонализирани папки. Отворете ги, като промените съответно папката с документи на MarkdownH или в друг файлов мениджър.</string>
     <string name="vertical_alignment">Вертикално подравняване</string>
     <string name="horizontal_alignment">Хоризонтално подравняване</string>
     <string name="default_">По подразбиране</string>

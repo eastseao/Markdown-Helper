@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?><!--
 /*#######################################################
  *
- *   MD文档助手 - "More" / settings page.
- *   The settings entries are flattened inline below, so they can be
- *   reached directly instead of through a separate Settings entry.
- *   Generated from preferences_master.xml by flatten_settings.py
+ *   MarkdownH - "More" / settings page.
+ *
+ *   The settings entries are stacked inline below instead of being split over
+ *   sub pages, so everything is reachable from one screen. To keep that readable
+ *   the entries are grouped into five collapsible categories by functional domain
+ *   (general / files / editor / view / formats). The collapsing is implemented by
+ *   io.github.eastseao.markdownhelper.activity.ExpandablePreferenceCategory, which
+ *   hides its direct children while collapsed - and hiding a group hides its whole
+ *   subtree, so the nested sub categories fold away with their parent.
+ *   All five groups start collapsed. Entries were regrouped from the flattened
+ *   preferences_master.xml layout by markdown-helper-tools/regroup_more_page.py,
+ *   which asserts that no setting is lost or duplicated.
  *
 #########################################################*/
 -->
 
 <!--suppress AndroidElementNotAllowed -->
+
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -20,18 +29,123 @@
     <Preference
         android:key="@string/pref_key__more_info__app"
         android:title="@string/app_name"
-        tools:icon="@drawable/ic_launcher"
+        tools:icon="@drawable/ic_settings_black_24dp"
         tools:summary="Version v0.5" />
 
-    <!-- ==================== Settings (flattened) ==================== -->
 
-
-    <!-- General screen -->
-    <PreferenceCategory
-        android:icon="@drawable/ic_file_white_24dp"
-        android:summary="@string/files_and_folders"
+    <!-- ==================== general ==================== -->
+    <io.github.eastseao.markdownhelper.activity.ExpandablePreferenceCategory
+        android:key="@string/pref_key__more_group_general"
+        android:icon="@drawable/ic_widgets_black_24dp"
+        android:summary="@string/app_settings"
         android:title="@string/general">
+        <ListPreference
+            android:defaultValue="@string/app_theme_system"
+            android:dialogTitle="@string/theme"
+            android:entries="@array/pref_arrdisp__app_themes"
+            android:entryValues="@array/pref_arrkeys__app_themes"
+            android:icon="@drawable/ic_invert_colors_black_24dp"
+            android:key="@string/pref_key__app_theme"
+            android:summary="%1$s"
+            android:title="@string/theme" />
 
+        <net.gsantner.opoc.frontend.settings.GsLanguagePreferenceCompat
+            android:icon="@drawable/ic_language_black_24dp"
+            android:key="@string/pref_key__language"
+            android:summary="@string/language_change_restart_description"
+            android:title="@string/language" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/app_start_tab"
+            android:entries="@array/pref_arrdisp__bottomnav"
+            android:entryValues="@array/pref_arrkeys__zero_to_three"
+            android:icon="@drawable/ic_file_gray_24dp"
+            android:key="@string/pref_key__app_start_tab_v2"
+            android:summary="%1$s"
+            android:title="@string/app_start_tab" />
+
+        <ListPreference
+            android:defaultValue="notebook"
+            android:dialogTitle="@string/app_start_folder"
+            android:entries="@array/pref_arrdisp__files_startup_folder"
+            android:entryValues="@array/pref_arrkeys__files_startup_folder"
+            android:icon="@drawable/ic_file_gray_24dp"
+            android:key="@string/pref_key__app_start_folder"
+            android:summary="%1$s"
+            android:title="@string/app_start_folder" />
+
+        <androidx.preference.EditTextPreference
+            android:defaultValue="@string/empty_string"
+            android:dialogMessage="@string/always_open_files_with_this_app_when_list_contains_file_extension"
+            android:icon="@drawable/ic_open_in_browser_black_24dp"
+            android:key="@string/pref_key__exts_to_always_open_in_this_app"
+            android:title="@string/always_open_with_this_app" />
+
+        <ListPreference
+            android:defaultValue="#000000"
+            android:dialogTitle="@string/navigationbar_color"
+            android:entries="@array/pref_arrdisp__navigationbar_color"
+            android:entryValues="@array/pref_arrkeys__navigationbar_color"
+            android:icon="@drawable/ic_invert_colors_black_24dp"
+            android:key="@string/pref_key__navigationbar_color"
+            android:summary="%1$s"
+            android:title="@string/navigationbar_color" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_visibility_off_black_24dp"
+            android:key="@string/pref_key__theming_hide_system_statusbar"
+            android:summary="@string/hide_statusbar_at_this_view"
+            android:title="@string/hide_statusbar" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_screen_lock_portrait_black_24dp"
+            android:key="@string/pref_key__is_keep_screen_on"
+            android:title="@string/keep_screen_on" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_lock_outline_black_24dp"
+            android:key="@string/pref_key__is_disallow_screenshots"
+            android:title="@string/disallow_screenshots" />
+
+        <PreferenceCategory android:title="@string/features">
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:icon="@drawable/ic_widgets_black_24dp"
+                android:key="@string/pref_key__is_launcher_for_special_files_enabled"
+                android:title="@string/special_documents" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:icon="@drawable/ic_border_outer_black_24dp"
+                android:key="@string/pref_key__is_multi_window_enabled"
+                android:summary="@string/open_new_documents_always_in_new_window"
+                android:title="@string/multiple_windows" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:icon="@drawable/ic_bug_report_black_24dp"
+                android:key="@string/pref_key__is_enable_experimental_features"
+                android:title="@string/experimental_features" />
+
+        </PreferenceCategory>
+
+        <Preference
+            android:icon="@drawable/ic_lock_outline_black_24dp"
+            android:key="@string/pref_key__set_encryption_password"
+            android:title="@string/file_encryption_password" />
+
+    </io.github.eastseao.markdownhelper.activity.ExpandablePreferenceCategory>
+
+    <!-- ==================== files ==================== -->
+    <io.github.eastseao.markdownhelper.activity.ExpandablePreferenceCategory
+        android:key="@string/pref_key__more_group_files"
+        android:icon="@drawable/ic_folder_white_24dp"
+        android:summary="@string/files_and_folders"
+        android:title="@string/settings_group_files">
         <PreferenceCategory android:title="@string/save_location">
             <Preference
                 android:icon="@drawable/ic_save_black_24dp"
@@ -49,39 +163,26 @@
                 android:title="@string/todo" />
         </PreferenceCategory>
 
-        <PreferenceCategory android:title="@string/miscellaneous">
+        <androidx.preference.EditTextPreference
+            android:defaultValue="_res"
+            android:dialogMessage="@string/attachment_folder_name_desc"
+            android:icon="@drawable/ic_attach_file_black_24dp"
+            android:key="@string/pref_key__attachment_folder_name"
+            android:title="@string/attachment_folder_name" />
+
+        <Preference
+            android:icon="@drawable/baseline_snippet_folder_24"
+            android:key="@string/pref_key__snippet_directory_path"
+            android:title="@string/snippet_directory" />
+
+        <PreferenceCategory android:title="@string/file_browser">
             <androidx.preference.EditTextPreference
                 android:defaultValue="@string/empty_string"
-                android:dialogMessage="@string/always_open_files_with_this_app_when_list_contains_file_extension"
-                android:icon="@drawable/ic_open_in_browser_black_24dp"
-                android:key="@string/pref_key__exts_to_always_open_in_this_app"
-                android:title="@string/always_open_with_this_app" />
-
-            <ListPreference
-                android:defaultValue="0"
-                android:dialogTitle="@string/app_start_tab"
-                android:entries="@array/pref_arrdisp__bottomnav"
-                android:entryValues="@array/pref_arrkeys__zero_to_three"
-                android:icon="@drawable/ic_file_gray_24dp"
-                android:key="@string/pref_key__app_start_tab_v2"
-                android:summary="%1$s"
-                android:title="@string/app_start_tab" />
-
-            <ListPreference
-                android:defaultValue="notebook"
-                android:dialogTitle="@string/app_start_folder"
-                android:entries="@array/pref_arrdisp__files_startup_folder"
-                android:entryValues="@array/pref_arrkeys__files_startup_folder"
-                android:icon="@drawable/ic_file_gray_24dp"
-                android:key="@string/pref_key__app_start_folder"
-                android:summary="%1$s"
-                android:title="@string/app_start_folder" />
-            <Preference
-                android:icon="@drawable/ic_lock_outline_black_24dp"
-                android:key="@string/pref_key__set_encryption_password"
-                android:title="@string/file_encryption_password" />
+                android:dialogMessage="@string/file_description_format_dialog"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:key="@string/pref_key__file_description_format"
+                android:title="@string/file_description_format" />
         </PreferenceCategory>
-
 
         <PreferenceCategory android:title="@string/search">
             <ListPreference
@@ -101,132 +202,6 @@
                 android:title="@string/ignore_list" />
         </PreferenceCategory>
 
-
-        <PreferenceCategory android:title="@string/features">
-            <CheckBoxPreference
-                android:defaultValue="true"
-                android:icon="@drawable/ic_highlight_black_24dp"
-                android:key="@string/pref_key__is_highlighting_activated"
-                android:summary="@string/highlighting_enabled_or_not__appspecific"
-                android:title="@string/syntax_highlighting" />
-            <CheckBoxPreference
-                android:defaultValue="false"
-                android:icon="@drawable/ic_widgets_black_24dp"
-                android:key="@string/pref_key__is_launcher_for_special_files_enabled"
-                android:title="@string/special_documents" />
-            <CheckBoxPreference
-                android:defaultValue="false"
-                android:icon="@drawable/ic_border_outer_black_24dp"
-                android:key="@string/pref_key__is_multi_window_enabled"
-                android:summary="@string/open_new_documents_always_in_new_window"
-                android:title="@string/multiple_windows" />
-            <CheckBoxPreference
-                android:defaultValue="false"
-                android:icon="@drawable/ic_bug_report_black_24dp"
-                android:key="@string/pref_key__is_enable_experimental_features"
-                android:title="@string/experimental_features" />
-        </PreferenceCategory>
-
-    </PreferenceCategory>
-
-    <!-- Document browser screen -->
-    <PreferenceCategory
-        android:icon="@drawable/ic_border_outer_black_24dp"
-        android:summary="@string/miscellaneous"
-        android:title="@string/other">
-
-        <PreferenceCategory android:title="@string/general">
-            <ListPreference
-                android:defaultValue="#000000"
-                android:dialogTitle="@string/navigationbar_color"
-                android:entries="@array/pref_arrdisp__navigationbar_color"
-                android:entryValues="@array/pref_arrkeys__navigationbar_color"
-                android:icon="@drawable/ic_invert_colors_black_24dp"
-                android:key="@string/pref_key__navigationbar_color"
-                android:summary="%1$s"
-                android:title="@string/navigationbar_color" />
-
-            <CheckBoxPreference
-                android:defaultValue="false"
-                android:icon="@drawable/ic_visibility_off_black_24dp"
-                android:key="@string/pref_key__theming_hide_system_statusbar"
-                android:summary="@string/hide_statusbar_at_this_view"
-                android:title="@string/hide_statusbar" />
-
-            <CheckBoxPreference
-                android:defaultValue="false"
-                android:icon="@drawable/ic_screen_lock_portrait_black_24dp"
-                android:key="@string/pref_key__is_keep_screen_on"
-                android:title="@string/keep_screen_on" />
-
-            <CheckBoxPreference
-                android:defaultValue="false"
-                android:icon="@drawable/ic_lock_outline_black_24dp"
-                android:key="@string/pref_key__is_disallow_screenshots"
-                android:title="@string/disallow_screenshots" />
-
-            <androidx.preference.EditTextPreference
-                android:defaultValue="\\n----\\n{{text}}"
-                android:dialogMessage="@string/share_into_format_prefix_for_text_shared"
-                android:icon="@drawable/ic_share_black_24dp"
-                android:key="@string/pref_key__share_into_format"
-                android:title="@string/share_into_format" />
-
-            <androidx.preference.EditTextPreference
-                android:defaultValue="1080"
-                android:dialogMessage="@string/share_image_export_width_desc"
-                android:dialogTitle="@string/share_image_export_width"
-                android:icon="@drawable/ic_image_black_24dp"
-                android:key="@string/pref_key__share_image_export_width"
-                android:summary="1080 px"
-                android:title="@string/share_image_export_width" />
-
-            <!-- NOTE: no android:dialogMessage here on purpose. A message combined with the
-                 single choice list suppresses the list on this platform, so the options would
-                 never be shown. The explanation lives in the hint row below instead. -->
-            <androidx.preference.ListPreference
-                android:defaultValue="2"
-                android:dialogTitle="@string/share_image_export_scale"
-                android:entries="@array/share_image_export_scale_entries"
-                android:entryValues="@array/share_image_export_scale_values"
-                android:icon="@drawable/ic_image_black_24dp"
-                android:key="@string/pref_key__share_image_export_scale"
-                android:summary="%s"
-                android:title="@string/share_image_export_scale" />
-
-            <Preference
-                android:key="@string/pref_key__share_image_export_scale_note"
-                android:selectable="false"
-                android:summary="@string/share_image_export_scale_desc" />
-
-            <androidx.preference.EditTextPreference
-                android:defaultValue="_res"
-                android:dialogMessage="@string/attachment_folder_name_desc"
-                android:icon="@drawable/ic_attach_file_black_24dp"
-                android:key="@string/pref_key__attachment_folder_name"
-                android:title="@string/attachment_folder_name" />
-
-            <Preference
-                android:icon="@drawable/baseline_snippet_folder_24"
-                android:key="@string/pref_key__snippet_directory_path"
-                android:title="@string/snippet_directory" />
-
-            <CheckBoxPreference
-                android:defaultValue="true"
-                android:icon="@drawable/ic_open_in_browser_black_24dp"
-                android:key="@string/pref_key__open_links_with_chrome_custom_tabs"
-                android:title="@string/chrome_custom_tabs" />
-        </PreferenceCategory>
-
-        <PreferenceCategory android:title="@string/file_browser">
-            <androidx.preference.EditTextPreference
-                android:defaultValue="@string/empty_string"
-                android:dialogMessage="@string/file_description_format_dialog"
-                android:icon="@android:drawable/ic_menu_info_details"
-                android:key="@string/pref_key__file_description_format"
-                android:title="@string/file_description_format" />
-        </PreferenceCategory>
-
         <PreferenceCategory android:title="@string/backup">
             <Preference
                 android:icon="@drawable/ic_save_black_24dp"
@@ -240,10 +215,11 @@
                 android:title="@string/restore_settings" />
         </PreferenceCategory>
 
-    </PreferenceCategory>
+    </io.github.eastseao.markdownhelper.activity.ExpandablePreferenceCategory>
 
-    <!-- Editor screen -->
-    <PreferenceCategory
+    <!-- ==================== editor ==================== -->
+    <io.github.eastseao.markdownhelper.activity.ExpandablePreferenceCategory
+        android:key="@string/pref_key__more_group_editor"
         android:icon="@drawable/ic_edit_black_24dp"
         android:summary="@string/editor_settings"
         android:title="@string/edit_mode">
@@ -252,6 +228,7 @@
             android:icon="@drawable/ic_format_shapes_black_24dp"
             android:key="@string/pref_key__font_family"
             android:title="@string/font" />
+
         <androidx.preference.SeekBarPreference
             android:defaultValue="15"
             android:icon="@drawable/ic_format_size_black_24dp"
@@ -367,6 +344,13 @@
                 android:title="@string/bigger_headings" />
         </PreferenceCategory>
 
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_highlight_black_24dp"
+            android:key="@string/pref_key__is_highlighting_activated"
+            android:summary="@string/highlighting_enabled_or_not__appspecific"
+            android:title="@string/syntax_highlighting" />
+
         <PreferenceCategory android:title="@string/miscellaneous">
             <androidx.preference.SeekBarPreference
                 android:defaultValue="100"
@@ -419,20 +403,22 @@
                 android:summary="@string/character_to_start_items_of_unordered_list_with"
                 android:title="@string/unordered_list_character" />
         </PreferenceCategory>
-    </PreferenceCategory>
 
-    <!-- View screen -->
-    <PreferenceCategory
+    </io.github.eastseao.markdownhelper.activity.ExpandablePreferenceCategory>
+
+    <!-- ==================== view ==================== -->
+    <io.github.eastseao.markdownhelper.activity.ExpandablePreferenceCategory
+        android:key="@string/pref_key__more_group_view"
         android:icon="@drawable/ic_visibility_black_24dp"
         android:summary="@string/display_converted_markup"
-        android:title="@string/view_mode">
-
+        android:title="@string/settings_group_view_export">
         <CheckBoxPreference
             android:defaultValue="false"
             android:icon="@drawable/ic_visibility_black_24dp"
             android:key="@string/pref_key__is_preview_first"
             android:summary="@string/open_existing_files_in_view_mode"
             android:title="@string/prefer_view" />
+
         <CheckBoxPreference
             android:defaultValue="false"
             android:icon="@drawable/ic_arrow_back_white_24dp"
@@ -476,12 +462,54 @@
                 app:min="-1"
                 app:showSeekBarValue="true" />
         </PreferenceCategory>
-    </PreferenceCategory>
 
+        <androidx.preference.EditTextPreference
+            android:defaultValue="\\n----\\n{{text}}"
+            android:dialogMessage="@string/share_into_format_prefix_for_text_shared"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:key="@string/pref_key__share_into_format"
+            android:title="@string/share_into_format" />
 
-    <!-- Formats screen -->
-    <PreferenceCategory android:title="@string/format">
+        <androidx.preference.EditTextPreference
+            android:defaultValue="1080"
+            android:dialogMessage="@string/share_image_export_width_desc"
+            android:dialogTitle="@string/share_image_export_width"
+            android:icon="@drawable/ic_image_black_24dp"
+            android:key="@string/pref_key__share_image_export_width"
+            android:summary="1080 px"
+            android:title="@string/share_image_export_width" />
 
+        <!-- NOTE: no android:dialogMessage here on purpose. A message combined with the
+             single choice list suppresses the list on this platform, so the options would
+             never be shown. The explanation lives in the hint row below instead. -->
+        <androidx.preference.ListPreference
+            android:defaultValue="2"
+            android:dialogTitle="@string/share_image_export_scale"
+            android:entries="@array/share_image_export_scale_entries"
+            android:entryValues="@array/share_image_export_scale_values"
+            android:icon="@drawable/ic_image_black_24dp"
+            android:key="@string/pref_key__share_image_export_scale"
+            android:summary="%s"
+            android:title="@string/share_image_export_scale" />
+
+        <Preference
+            android:key="@string/pref_key__share_image_export_scale_note"
+            android:selectable="false"
+            android:summary="@string/share_image_export_scale_desc" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_open_in_browser_black_24dp"
+            android:key="@string/pref_key__open_links_with_chrome_custom_tabs"
+            android:title="@string/chrome_custom_tabs" />
+
+    </io.github.eastseao.markdownhelper.activity.ExpandablePreferenceCategory>
+
+    <!-- ==================== formats ==================== -->
+    <io.github.eastseao.markdownhelper.activity.ExpandablePreferenceCategory
+        android:key="@string/pref_key__more_group_formats"
+        android:icon="@drawable/gs_markdown_black_24dp"
+        android:title="@string/format">
         <!-- Markdown screen -->
         <PreferenceCategory
             android:icon="@drawable/gs_markdown_black_24dp"
@@ -649,6 +677,7 @@
             </PreferenceCategory>
 
         </PreferenceCategory>
+
         <!-- OrgMode Screen -->
         <PreferenceCategory
             android:icon="@drawable/ic_org_mode_file"
@@ -675,26 +704,7 @@
             </PreferenceCategory>
 
         </PreferenceCategory>
-    </PreferenceCategory>
 
-    <!-- Most important settings -->
-    <PreferenceCategory android:title="@string/essential">
-        <ListPreference
-            android:defaultValue="@string/app_theme_system"
-            android:dialogTitle="@string/theme"
-            android:entries="@array/pref_arrdisp__app_themes"
-            android:entryValues="@array/pref_arrkeys__app_themes"
-            android:icon="@drawable/ic_invert_colors_black_24dp"
-            android:key="@string/pref_key__app_theme"
-            android:summary="%1$s"
-            android:title="@string/theme" />
-
-        <net.gsantner.opoc.frontend.settings.GsLanguagePreferenceCompat
-            android:icon="@drawable/ic_language_black_24dp"
-            android:key="@string/pref_key__language"
-            android:summary="@string/language_change_restart_description"
-            android:title="@string/language" />
-    </PreferenceCategory>
-
+    </io.github.eastseao.markdownhelper.activity.ExpandablePreferenceCategory>
 
 </PreferenceScreen> <!-- Screen -->

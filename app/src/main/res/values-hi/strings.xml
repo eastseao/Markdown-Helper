@@ -199,12 +199,12 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">डैश (-)</string>
     <string name="unordered_list_char_asterisk">ताराचिह्न (*)</string>
     <string name="unordered_list_char_plus">प्लस (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper केवल स्थानीय, ऑफ़लाइन उपलब्ध दस्तावेज़ों को ही संपादित कर सकता है और उन फ़ाइल प्रबंधकों का समर्थन नहीं करता है जो पूर्ण फ़ाइल पथ प्रदान नहीं करते हैं।</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownH केवल स्थानीय, ऑफ़लाइन उपलब्ध दस्तावेज़ों को ही संपादित कर सकता है और उन फ़ाइल प्रबंधकों का समर्थन नहीं करता है जो पूर्ण फ़ाइल पथ प्रदान नहीं करते हैं।</string>
     <string name="file_does_not_exist_and_cant_be_created">फाइल या डायरेक्टरी मौजूद नहीं है और इसे बनाया नहीं जा सकता।</string>
     <string name="permissions">अनुमतियां।</string>
     <string name="permission_paths_revert">डिफ़ॉल्ट पथ पर वापस जाएँ।</string>
     <string name="permission_not_granted">अनुमति नहीं प्राप्त है।</string>
-    <string name="sync_to_local_folder_notice">ध्यान दें: सिंक ऐप्स फ़ाइलों को कस्टम फ़ोल्डरों में रख सकते हैं। उन्हें खोलने के लिए Markdown Helper के दस्तावेज़ फ़ोल्डर को तदनुसार बदलें, या किसी अन्य फ़ाइल प्रबंधक का उपयोग करें।</string>
+    <string name="sync_to_local_folder_notice">ध्यान दें: सिंक ऐप्स फ़ाइलों को कस्टम फ़ोल्डरों में रख सकते हैं। उन्हें खोलने के लिए MarkdownH के दस्तावेज़ फ़ोल्डर को तदनुसार बदलें, या किसी अन्य फ़ाइल प्रबंधक का उपयोग करें।</string>
     <string name="vertical_alignment">लंबवत संरेखण</string>
     <string name="horizontal_alignment">क्षैतिज संरेखण</string>
     <string name="default_">डिफ़ाॅल्ट।</string>

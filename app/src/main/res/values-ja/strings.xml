@@ -185,8 +185,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">ダッシュ (-)</string>
     <string name="unordered_list_char_asterisk">アスタリスク (*)</string>
     <string name="unordered_list_char_plus">プラス (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helperはローカルのオフライン利用可能なドキュメントのみ編集できます。ファイルをフルパスで提供しないファイルマネージャーはサポートしていません。</string>
-    <string name="sync_to_local_folder_notice">注意: 同期アプリがカスタムフォルダーにファイルを配置することがあります。Markdown Helper のドキュメントフォルダーを変更するか、別のファイルマネージャーでそれを開くことができます。</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownHはローカルのオフライン利用可能なドキュメントのみ編集できます。ファイルをフルパスで提供しないファイルマネージャーはサポートしていません。</string>
+    <string name="sync_to_local_folder_notice">注意: 同期アプリがカスタムフォルダーにファイルを配置することがあります。MarkdownH のドキュメントフォルダーを変更するか、別のファイルマネージャーでそれを開くことができます。</string>
     <string name="vertical_alignment">縦に揃える</string>
     <string name="horizontal_alignment">横に揃える</string>
     <string name="default_">デフォルト</string>
@@ -275,8 +275,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">AppData (プライベート)</string>
     <string name="appdata_sdcard">AppData (SD カード)</string>
     <string name="internal_storage">内部ストレージ</string>
-    <string name="open_the_document_from_main_view">メインビューの下、ファイルブラウザーまたはランチャーからドキュメントを開くことができます。また、Markdown Helper に共有テキストを追加するオプションがあります。</string>
-    <string name="notebook_is_the_home_of_your_files">Notebook は、アプリが起動する時に、Markdown Helper がファイルブラウザーで読み込むフォルダーです。あなたのファイルのホームフォルダーになります。</string>
+    <string name="open_the_document_from_main_view">メインビューの下、ファイルブラウザーまたはランチャーからドキュメントを開くことができます。また、MarkdownH に共有テキストを追加するオプションがあります。</string>
+    <string name="notebook_is_the_home_of_your_files">Notebook は、アプリが起動する時に、MarkdownH がファイルブラウザーで読み込むフォルダーです。あなたのファイルのホームフォルダーになります。</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">QuickNote は、メモを書くための最速のオプションです。デフォルトの場所は &gt;Notebook/QuickNote.md&lt; で Markdown 形式のファイルです。設定でカスタムのパスを設定できます。</string>
     <string name="todo_is_the_easiest_way_">ToDo とタスクを管理します。デフォルトの場所は &gt;Notebook/todo.txt&lt; で Todo.txt 形式のファイルです。設定でカスタムパスを設定できます。</string>
     <string name="navigationbar_color">ナビゲーションバーの色</string>
@@ -361,7 +361,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">ファイルの内容を暗号化する</string>
     <string name="utf8_with_bom">UTF-8 with BOM</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">ファイルの内容を暗号化できません。ファイルを保存しませんでした。</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">ファイルの内容を復号化できません。パスワードが間違っていませんか? ファイルがMarkdown HelperのAES暗号で暗号化されていますか?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">ファイルの内容を復号化できません。パスワードが間違っていませんか? ファイルがMarkdownHのAES暗号で暗号化されていますか?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">パスワードがすでに設定されています。新しいパスワードを設定すると、既存のパスワードを上書きします。パスワードを忘れた場合はファイルにアクセスできなくなる可能性があります。</string>
     <string name="code_block">コードブロック</string>
     <string name="add_completion_date">完了日を追加</string>

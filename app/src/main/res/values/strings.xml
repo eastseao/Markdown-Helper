@@ -142,6 +142,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="back_to_previous_folder" needed="false">Back to previous folder</string>
     <string name="app_settings" needed="false">App Settings</string>
     <string name="editor_settings" needed="false">Editor Settings</string>
+    <string name="settings_group_files" needed="false">Files &amp; storage</string>
+    <string name="settings_group_view_export" needed="false">View &amp; export</string>
     <string name="remember_last_folder_location_on_startup" needed="false">Remember last folder location on startup</string>
     <string name="number_of_files_witharg" needed="false">Number of files: %d</string>
 
@@ -210,12 +212,12 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="unordered_list_char_dash">Dash (-)</string>
     <string name="unordered_list_char_asterisk">Asterisk (*)</string>
     <string name="unordered_list_char_plus">Plus (+)</string>
-    <string name="filemanager_doesnot_supply_required_data__appspecific">Markdown Helper can only edit local, offline available documents and does not support file managers that do not provide the full file path.</string>
+    <string name="filemanager_doesnot_supply_required_data__appspecific">MarkdownH can only edit local, offline available documents and does not support file managers that do not provide the full file path.</string>
     <string name="file_does_not_exist_and_cant_be_created">File or directory does not exist and can not be created</string>
     <string name="permissions">Permissions</string>
     <string name="permission_paths_revert">Revert to default paths?</string>
     <string name="permission_not_granted">Permission not granted</string>
-    <string name="sync_to_local_folder_notice">Note: Sync apps may place files in custom folders. Open them by changing Markdown Helper\'s document folder accordingly, or in another file manager.</string>
+    <string name="sync_to_local_folder_notice">Note: Sync apps may place files in custom folders. Open them by changing MarkdownH\'s document folder accordingly, or in another file manager.</string>
     <string name="vertical_alignment">Vertical alignment</string>
     <string name="horizontal_alignment">Horizontal alignment</string>
     <string name="default_">Default</string>
@@ -315,8 +317,8 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="appdata_private">AppData (private)</string>
     <string name="appdata_sdcard">AppData (SD Card)</string>
     <string name="internal_storage">Internal storage</string>
-    <string name="open_the_document_from_main_view">You can open the document from main view on the bottom, the file browser or the launcher. There is also a option to append text shared into Markdown Helper.</string>
-    <string name="notebook_is_the_home_of_your_files">Notebook is the folder that Markdown Helper loads in the file browser when the app is started. It is the home folder of your files.</string>
+    <string name="open_the_document_from_main_view">You can open the document from main view on the bottom, the file browser or the launcher. There is also a option to append text shared into MarkdownH.</string>
+    <string name="notebook_is_the_home_of_your_files">Notebook is the folder that MarkdownH loads in the file browser when the app is started. It is the home folder of your files.</string>
     <string name="quicknote_is_the_fastest_option_to_write_down_notes">QuickNote is the fastest option to write down notes. It is a file in Markdown format with default location &gt;Notebook/QuickNote.md&lt;, you can set a custom filepath in the settings.</string>
     <string name="todo_is_the_easiest_way_">Manage your tasks with ToDo. It is a file in todo.txt format with default location &gt;Notebook/todo.txt&lt;, you can set a custom filepath in the settings.</string>
     <string name="navigationbar_color">Navigation bar color</string>
@@ -425,7 +427,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="encrypt_file_content">Encrypt file content</string>
     <string name="utf8_with_bom">UTF-8 with BOM</string>
     <string name="could_not_encrypt_file_content_the_file_was_not_saved">Could not encrypt file content. The file was not saved.</string>
-    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Could not decrypt file content. Did you use a wrong password? Is the file really encrypted with Markdown Helper\'s AES encryption?</string>
+    <string name="could_not_decrypt_file_content_wrong_password_or_is_the_file_maybe_not_encrypted">Could not decrypt file content. Did you use a wrong password? Is the file really encrypted with MarkdownH\'s AES encryption?</string>
     <string name="password_already_set_setting_a_new_password_will_overwrite">Password already set. Setting a new password will overwrite the existing password and you may not be able to access files anymore in case you forget the password.</string>
     <string name="code_block">Code block</string>
     <string name="add_completion_date">Add completion date</string>
@@ -483,7 +485,7 @@ work. If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     <string name="match_all">Match All</string>
     <string name="dynamic_notebook_root_links">Dynamic search for notebook root</string>
     <string name="search_dynamically_for_notebook_root">In order to follow wiki links, dynamically search for the notebook.zim file to identify the root directory for the current notebook. Check this if you use multiple zim notebooks or the notebook directory set in the app does not correspond to your zim notebook.</string>
-    <string name="share_into_format_prefix_for_text_shared">Format/Prefix for text shared into Markdown Helper. Follows Android\'s SimpleDateFormat rules.\n\nUse the placeholder {{text}} to position the shared text. If not specified, the shared text is appended and the format used as a prefix.</string>
+    <string name="share_into_format_prefix_for_text_shared">Format/Prefix for text shared into MarkdownH. Follows Android\'s SimpleDateFormat rules.\n\nUse the placeholder {{text}} to position the shared text. If not specified, the shared text is appended and the format used as a prefix.</string>
     <string name="share_into_format">Share into - Format</string>
     <string name="attachment_folder_name">Attachment folder name</string>
     <string name="attachment_folder_name_desc">Subfolder under the current folder where attachments will be saved. If left blank, attachments will be saved in the current folder.</string>

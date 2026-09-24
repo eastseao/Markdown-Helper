@@ -282,9 +282,11 @@ public class MainActivity extends MarkdownHelperBaseActivity implements GsFileBr
     @Override
     protected void onResume() {
         super.onResume();
-        if (!IntroActivity.isFirstStart(this)) {
-            StoragePermissionActivity.requestPermissions(this);
-        }
+        // Nothing is shown automatically on start-up any more: the first-start walkthrough and
+        // the "changelog / licenses / copyright" dialog were both removed on purpose, so the
+        // app now opens straight into the file browser. The storage permission is therefore
+        // requested unconditionally (requestPermissions() is a no-op once it is granted).
+        StoragePermissionActivity.requestPermissions(this);
 
         if (_appSettings.isRecreateMainRequired()) {
             // recreate(); // does not remake fragments
@@ -300,10 +302,6 @@ public class MainActivity extends MarkdownHelperBaseActivity implements GsFileBr
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP && _appSettings.isMultiWindowEnabled()) {
             setTaskDescription(new ActivityManager.TaskDescription(getString(R.string.app_name)));
         }
-
-        // Intro (fresh install only) is still started, but the "changelog / licenses / copyright"
-        // dialog that used to pop up on every app update has been removed on purpose.
-        IntroActivity.optStart(this);
     }
 
     @Override
